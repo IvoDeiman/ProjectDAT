@@ -4213,6 +4213,33 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 9037731984600688826, guid: 550c437082721aa42ac3fc3d4aa8af6f, type: 3}
+--- !u!1 &367515157 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: b674e4fabe74edb49b71914d1735d6b1,
+    type: 3}
+  m_PrefabInstance: {fileID: 82344736}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &367515161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 367515157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca3697a5edb14de40bec8496362b129b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultlayer:
+    serializedVersion: 2
+    m_Bits: 1
+  infraredlayer:
+    serializedVersion: 2
+    m_Bits: 64
+  directionalLight: {fileID: 0}
+  minIntensity: 0
+  maxIntensity: 1.5
 --- !u!1 &403888303
 GameObject:
   m_ObjectHideFlags: 0
@@ -4524,6 +4551,87 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!1 &495717001 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4057665878677803417, guid: 62ac45af78a970e4a8bd1447a79b753f,
+    type: 3}
+  m_PrefabInstance: {fileID: 5498360939849072852}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &495717006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 495717001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca3697a5edb14de40bec8496362b129b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultlayer:
+    serializedVersion: 2
+    m_Bits: 1
+  infraredlayer:
+    serializedVersion: 2
+    m_Bits: 64
+  directionalLight: {fileID: 0}
+  minIntensity: 0
+  maxIntensity: 1.5
+--- !u!1 &571459012 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4057665878677803417, guid: 62ac45af78a970e4a8bd1447a79b753f,
+    type: 3}
+  m_PrefabInstance: {fileID: 632095248}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &571459017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571459012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca3697a5edb14de40bec8496362b129b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultlayer:
+    serializedVersion: 2
+    m_Bits: 1
+  infraredlayer:
+    serializedVersion: 2
+    m_Bits: 64
+  directionalLight: {fileID: 0}
+  minIntensity: 0
+  maxIntensity: 1.5
+--- !u!1 &622364625 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4057665878677803417, guid: 62ac45af78a970e4a8bd1447a79b753f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1524044198}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &622364630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 622364625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca3697a5edb14de40bec8496362b129b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultlayer:
+    serializedVersion: 2
+    m_Bits: 1
+  infraredlayer:
+    serializedVersion: 2
+    m_Bits: 64
+  directionalLight: {fileID: 0}
+  minIntensity: 0
+  maxIntensity: 1.5
 --- !u!1001 &632095248
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4633,6 +4741,33 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 62ac45af78a970e4a8bd1447a79b753f, type: 3}
+--- !u!1 &634382823 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4057665878677803417, guid: 62ac45af78a970e4a8bd1447a79b753f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1699816076}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &634382828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 634382823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca3697a5edb14de40bec8496362b129b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultlayer:
+    serializedVersion: 2
+    m_Bits: 1
+  infraredlayer:
+    serializedVersion: 2
+    m_Bits: 64
+  directionalLight: {fileID: 0}
+  minIntensity: 0
+  maxIntensity: 1.5
 --- !u!1 &661029074
 GameObject:
   m_ObjectHideFlags: 0
@@ -4869,8 +5004,9 @@ GameObject:
   - component: {fileID: 1047912741}
   - component: {fileID: 1047912740}
   - component: {fileID: 1047912739}
+  - component: {fileID: 1047912742}
   m_Layer: 0
-  m_Name: Directional Light (1)
+  m_Name: DirectionalLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4908,7 +5044,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 0.8848449, b: 0.5801887, a: 1}
-  m_Intensity: 1
+  m_Intensity: 1.5
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -4973,6 +5109,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 29.41, y: -120.293, z: -35.737}
+--- !u!114 &1047912742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1047912738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca3697a5edb14de40bec8496362b129b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultlayer:
+    serializedVersion: 2
+    m_Bits: 0
+  infraredlayer:
+    serializedVersion: 2
+    m_Bits: 0
+  directionalLight: {fileID: 1047912740}
+  minIntensity: 0
+  maxIntensity: 1.5
 --- !u!1 &1181028673 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8467783319733187010, guid: c5de7d80c0c8dda4faaf205e59f88310,
@@ -5272,6 +5429,27 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 7315484823027161132, guid: 550c437082721aa42ac3fc3d4aa8af6f, type: 3}
+--- !u!114 &1679647064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1679647056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca3697a5edb14de40bec8496362b129b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultlayer:
+    serializedVersion: 2
+    m_Bits: 1
+  infraredlayer:
+    serializedVersion: 2
+    m_Bits: 64
+  directionalLight: {fileID: 0}
+  minIntensity: 0
+  maxIntensity: 1.5
 --- !u!1001 &1699816076
 PrefabInstance:
   m_ObjectHideFlags: 0
