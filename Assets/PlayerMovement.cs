@@ -13,7 +13,7 @@ public class PlayerMovement : MonoBehaviour
 
     [SerializeField] private float timer = 5f;
     private int counter = 0;
-
+    private float t = 0f;
     private Transform target;
     private float walkProgress;
     private bool isMoving = false;
@@ -30,8 +30,12 @@ public class PlayerMovement : MonoBehaviour
             StartCoroutine(StartTransition());
         }
         if (!isMoving) return;
+        if (Vector3.Distance(transform.position, target.position) < .1f) {
+            return;
+        }
         transform.position = Vector3.MoveTowards(transform.position, target.position, walkProgress);
-        walkProgress = Time.deltaTime * speed;
+        walkProgress = Mathf.Lerp(0, Time.deltaTime * speed, t);
+        t += Time.deltaTime;
     }
 
     private IEnumerator StartTransition() {
@@ -45,8 +49,10 @@ public class PlayerMovement : MonoBehaviour
 
 
     private void SwitchLocation() {
-        player.position = hotspots[counter].position;
+        player.position = decoyWalkIn[counter].position;
+        target = hotspots[counter];
         counter++;
+        t = 0;
     }
 
 
