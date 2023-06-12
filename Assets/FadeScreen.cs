@@ -9,13 +9,12 @@ public class FadeScreen : MonoBehaviour
 
     void Start()
     {
-        //anim = GetComponent<Animator>();
         anim = GameObject.FindGameObjectWithTag("Fade").GetComponent<Animator>();
     }
 
     private void Update() {
         if (Input.GetKeyDown(KeyCode.Space)) {
-            ToggleFade();
+            //ToggleFade();
         }
     }
 
