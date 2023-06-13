@@ -19,9 +19,17 @@ public class Infrared : MonoBehaviour
 
     private void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Tab))
-        {
-            if(infraredActive)
+        if(Input.GetKeyDown(KeyCode.Tab)){
+            SwitchToInfrared();
+        }
+
+        if(Input.GetKeyUp(KeyCode.Tab)){
+            SwitchToInfrared();
+        }
+    }
+
+    private void SwitchToInfrared(){
+        if(infraredActive)
             {
                 infraredActive = !infraredActive;
                 int LayerNum = (int)Mathf.Log(defaultlayer.value, 2);
@@ -29,7 +37,6 @@ public class Infrared : MonoBehaviour
 
                 if (transform.childCount > 0)
                     SetLayerAllChildren(transform, LayerNum);
-
             }
             else
             {
@@ -39,14 +46,12 @@ public class Infrared : MonoBehaviour
 
                 if (transform.childCount > 0)
                     SetLayerAllChildren(transform, LayerNum);
-
-            }
-            
-                isLightOn = !isLightOn;
-                float intensity = isLightOn ? maxIntensity : minIntensity;
+            }          
+            isLightOn = !isLightOn;
+            float intensity = isLightOn ? maxIntensity : minIntensity;
+            if(directionalLight != null) {
                 directionalLight.intensity = intensity;
-            
-        }
+            }
     }
 
     void SetLayerAllChildren(Transform root, int layer)
