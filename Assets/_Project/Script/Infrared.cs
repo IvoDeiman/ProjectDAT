@@ -3,9 +3,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Experimental.GlobalIllumination;
+using System.IO.Ports;
 
 public class Infrared : MonoBehaviour
 {
+    SerialPort sp = new SerialPort("/dev/cu.usbmodem11101", 9600);
     public LayerMask defaultlayer;
     public LayerMask infraredlayer;
 
@@ -17,15 +19,22 @@ public class Infrared : MonoBehaviour
 
     private bool isLightOn = true;
 
+    void Start()
+    {
+        sp.Open();
+        sp.ReadTimeout = 100;
+    }
+
     private void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Tab)){
+        if(sp.ReadByte() == 1)
+        {
             SwitchToInfrared();
         }
 
-        if(Input.GetKeyUp(KeyCode.Tab)){
-            SwitchToInfrared();
-        }
+        //if(Input.GetKeyUp(KeyCode.Tab)){
+            //SwitchToInfrared();
+        //}
     }
 
     private void SwitchToInfrared(){
