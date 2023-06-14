@@ -7,7 +7,7 @@ using System.IO.Ports;
 
 public class Infrared : MonoBehaviour
 {
-    SerialPort sp = new SerialPort("/dev/cu.usbmodem11101", 9600);
+    SerialPort sp = new SerialPort("COM6", 9600);
     public LayerMask defaultlayer;
     public LayerMask infraredlayer;
 
@@ -22,19 +22,36 @@ public class Infrared : MonoBehaviour
     void Start()
     {
         sp.Open();
-        sp.ReadTimeout = 100;
+        sp.ReadTimeout = 5000;
     }
 
     private void Update()
     {
-        if(sp.ReadByte() == 1)
-        {
-            SwitchToInfrared();
-        }
-
-        //if(Input.GetKeyUp(KeyCode.Tab)){
+       // if (sp.IsOpen && sp.ReadByte() == 49) // ASCII code for '1'
+        //{
             //SwitchToInfrared();
-        //}
+            //if (Input.GetKeyDown(KeyCode.Tab))
+            //{
+               // SwitchToInfrared(); // Perform the action you want when the Arduino button is pressed
+            //}
+       // }
+
+
+        // if(sp.ReadByte() == 1)
+        // {
+        // SwitchToInfrared();
+        // }
+
+
+
+        if (Input.GetKeyDown(KeyCode.Tab))
+        {
+        SwitchToInfrared();
+        }
+        if (Input.GetKeyUp(KeyCode.Tab)){
+        SwitchToInfrared();
+        }
+        
     }
 
     private void SwitchToInfrared(){
@@ -72,5 +89,11 @@ public class Infrared : MonoBehaviour
             child.gameObject.layer = layer;
         }
     }
+    private void OnApplicationQuit()
+    {
+        if (sp != null && sp.IsOpen)
+        {
+            sp.Close();
+        }
+    }
 }
-    
