@@ -32,19 +32,19 @@ public class Infrared : MonoBehaviour
         
         if (sp.IsOpen && sp.ReadByte() == 49) // ASCII code for '1'
         {
-            if (!isButtonPressed)
-            {
-            isButtonPressed = true;
+            //if (!isButtonPressed)
+            //{
+            //isButtonPressed = true;
             SwitchToInfrared();
-            }
-         else
-        {
-           if (isButtonPressed)
-           {
-            isButtonPressed = false;
-            SwitchToInfrared();
-           }
-        }
+            //}
+         //else
+        //{
+           //if (isButtonPressed)
+           //{
+            //isButtonPressed = false;
+           //SwitchToInfrared();
+           //}
+        //}
             //if (Input.GetKeyDown(KeyCode.Tab))
             //{
                // SwitchToInfrared(); // Perform the action you want when the Arduino button is pressed
