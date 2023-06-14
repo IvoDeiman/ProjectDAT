@@ -7,7 +7,7 @@ using System.IO.Ports;
 
 public class Infrared : MonoBehaviour
 {
-    SerialPort sp = new SerialPort("COM6", 9600);
+    SerialPort sp = new SerialPort("COM5", 9600);
     public LayerMask defaultlayer;
     public LayerMask infraredlayer;
 
@@ -19,22 +19,37 @@ public class Infrared : MonoBehaviour
 
     private bool isLightOn = true;
 
+    private bool isButtonPressed = false;
+
     void Start()
     {
         sp.Open();
-        sp.ReadTimeout = 5000;
+        sp.ReadTimeout = 500;
     }
 
     private void Update()
     {
-       // if (sp.IsOpen && sp.ReadByte() == 49) // ASCII code for '1'
-        //{
-            //SwitchToInfrared();
+        
+        if (sp.IsOpen && sp.ReadByte() == 49) // ASCII code for '1'
+        {
+            if (!isButtonPressed)
+            {
+            isButtonPressed = true;
+            SwitchToInfrared();
+            }
+         else
+        {
+           if (isButtonPressed)
+           {
+            isButtonPressed = false;
+            SwitchToInfrared();
+           }
+        }
             //if (Input.GetKeyDown(KeyCode.Tab))
             //{
                // SwitchToInfrared(); // Perform the action you want when the Arduino button is pressed
             //}
-       // }
+        }
 
 
         // if(sp.ReadByte() == 1)
@@ -44,13 +59,13 @@ public class Infrared : MonoBehaviour
 
 
 
-        if (Input.GetKeyDown(KeyCode.Tab))
-        {
-        SwitchToInfrared();
-        }
-        if (Input.GetKeyUp(KeyCode.Tab)){
-        SwitchToInfrared();
-        }
+       // if (Input.GetKeyDown(KeyCode.Tab))
+       // {
+       // SwitchToInfrared();
+       // }
+       // if (Input.GetKeyUp(KeyCode.Tab)){
+       // SwitchToInfrared();
+       // }
         
     }
 
