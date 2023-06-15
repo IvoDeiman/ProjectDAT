@@ -5,9 +5,9 @@ using UnityEngine;
 using UnityEngine.Experimental.GlobalIllumination;
 using System.IO.Ports;
 
-public class Infrared : MonoBehaviour
+public class Infrared3 : MonoBehaviour
 {
-    SerialPort sp = new SerialPort("COM5", 9600);
+    SerialPort sp = new SerialPort("COM6", 9600);
     public LayerMask defaultlayer;
     public LayerMask infraredlayer;
 
@@ -23,8 +23,8 @@ public class Infrared : MonoBehaviour
 
     void Start()
     {
-        sp.Open();
-        sp.ReadTimeout = 500;
+       sp.Open();
+       sp.ReadTimeout = 500;
     }
 
     private void Update()
@@ -35,8 +35,8 @@ public class Infrared : MonoBehaviour
             //if (!isButtonPressed)
             //{
             //isButtonPressed = true;
-            SwitchToInfrared();
-            //}
+           SwitchToInfrared();
+            }
          //else
         //{
            //if (isButtonPressed)
@@ -49,7 +49,7 @@ public class Infrared : MonoBehaviour
             //{
                // SwitchToInfrared(); // Perform the action you want when the Arduino button is pressed
             //}
-        }
+       // }
 
 
         // if(sp.ReadByte() == 1)
@@ -59,13 +59,13 @@ public class Infrared : MonoBehaviour
 
 
 
-       // if (Input.GetKeyDown(KeyCode.Tab))
-       // {
-       // SwitchToInfrared();
-       // }
-       // if (Input.GetKeyUp(KeyCode.Tab)){
-       // SwitchToInfrared();
-       // }
+        if (Input.GetKeyDown(KeyCode.Tab))
+        {
+        SwitchToInfrared();
+        }
+        if (Input.GetKeyUp(KeyCode.Tab)){
+        SwitchToInfrared();
+        }
         
     }
 
@@ -78,7 +78,8 @@ public class Infrared : MonoBehaviour
 
                 if (transform.childCount > 0)
                     SetLayerAllChildren(transform, LayerNum);
-            }
+            Debug.Log(LayerNum);
+        }
             else
             {
                 infraredActive = !infraredActive;
@@ -87,12 +88,14 @@ public class Infrared : MonoBehaviour
 
                 if (transform.childCount > 0)
                     SetLayerAllChildren(transform, LayerNum);
+            Debug.Log(LayerNum);
             }          
             isLightOn = !isLightOn;
             float intensity = isLightOn ? maxIntensity : minIntensity;
             if(directionalLight != null) {
                 directionalLight.intensity = intensity;
             }
+            
     }
 
     void SetLayerAllChildren(Transform root, int layer)
@@ -106,9 +109,9 @@ public class Infrared : MonoBehaviour
     }
     private void OnApplicationQuit()
     {
-        if (sp != null && sp.IsOpen)
-        {
-            sp.Close();
-        }
+       // if (sp != null && sp.IsOpen)
+       // {
+       //     sp.Close();
+       // }
     }
 }
