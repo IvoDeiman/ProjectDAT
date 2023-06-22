@@ -24,8 +24,7 @@ public class Infrared2 : MonoBehaviour
     void Start()
     {
         superSenseScanner = GameObject.FindGameObjectWithTag("Scanner").GetComponent<Transform>();
-        sp.Open();
-        sp.ReadTimeout = 100;
+        //sp.Open();
 
         //layer = gameObject.layer;
         //layer = GetComponent<LayerMask>();
@@ -37,13 +36,14 @@ public class Infrared2 : MonoBehaviour
         //head
          try
          {
-           sp.Open();
-          sp.DtrEnable = true;
-           sp.RtsEnable = true;
+            sp.Open();
+            sp.DtrEnable = true;
+            sp.RtsEnable = true;
+            sp.ReadTimeout = 5000;
          }
          catch (Exception e)
          {
-             Debug.Log(e.ToString());
+            Debug.Log(e.ToString());
             Debug.Log("So no head?");
          }
     }
@@ -51,17 +51,29 @@ public class Infrared2 : MonoBehaviour
     void Update()
     {
 
-        if (sp.IsOpen || Input.GetKeyDown(KeyCode.Tab)) 
+        if (Input.GetKeyDown(KeyCode.Tab)){
+            SwitchToInfrared();
+        }
+        if (Input.GetKeyUp(KeyCode.Tab))
+        {
+            NoInfrared();
+        }
+
+
+        if (sp.IsOpen) 
         {
 
             try
             {
-                if (sp.ReadByte() == 1)
+                var incByte = sp.ReadByte();
+                print(incByte);
+                print(sp.ReadLine());
+                if (incByte == 1)
                 {
                     SwitchToInfrared();
                 }
 
-                else if (sp.ReadByte() == 2)
+                else if (incByte == 2)
                 {
                     NoInfrared();
 
@@ -71,27 +83,18 @@ public class Infrared2 : MonoBehaviour
 
 
                 //head
-                try {
-                    if (sp.ReadByte() != 1 || sp.ReadByte() != 2 || sp.ReadByte() != 3)
+                //try {
+                    else if (incByte != 3)
                     {
-                        //if (recv_angl == 3) return;
-                        // Ignore wakup message "a"
+                        // Ignore wakup message "3"
                         receivedstring = sp.ReadLine();
-                        print("head angle:" + receivedstring);
-                        if (receivedstring == "3") return;
                         int recv_angl = Mathf.RoundToInt(float.Parse(receivedstring));
 
-                        // please dont rotate all objects in space
-                        //transform.eulerAngles = new Vector3(0, recv_angl, 0);
-                        //superSenseScanner.eulerAngles = new Vector3(0, recv_angl, 0);
-                        //superSenseScanner.localRotation = new Quaternion(0, recv_angl, 0);
-
-                        //works V
-                        superSenseScanner.eulerAngles = Vector3.up * recv_angl;
+                        superSenseScanner.eulerAngles = Vector3.up * recv_angl * 9;
 
                     }
-                }
-                catch (Exception e) { }
+                //}
+                //catch (Exception e) { }
 
 
             }
@@ -109,7 +112,7 @@ public class Infrared2 : MonoBehaviour
 
     void NoInfrared()
     {
-        Debug.Log("uit");
+        //Debug.Log("uit");
         directionalLight.intensity = minIntensity;
 
 
@@ -126,7 +129,7 @@ public class Infrared2 : MonoBehaviour
 
     void SwitchToInfrared()
     {
-        Debug.Log("aan");
+        //Debug.Log("aan");
         directionalLight.intensity = maxIntensity;
 
         int LayerNum = 6;
