@@ -660,16 +660,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1ee7a10673e2e249b8f2972bdb61970, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fadeUI: {fileID: 0}
   movementSpeed: 1
-  rotateSpeed: 10
   distanceThreshold: 0.1
   routes:
-  - route:
+  - nodes:
     - {fileID: 1885855624}
     - {fileID: 855104098}
     - {fileID: 219515355}
     - {fileID: 1886378958}
-  - route:
+  - nodes:
     - {fileID: 1886378958}
     - {fileID: 1050728632}
     - {fileID: 369229016}

@@ -9,7 +9,7 @@ public class CameraMovement : MonoBehaviour
     [Header("Speed")]
     [SerializeField] private float movementSpeed = 1.0f;
     [SerializeField] private float distanceThreshold = 0.1f;
-    [Header("Routes")]
+    [Header("Routes (A ROUTE MUST HAVE 4 NODES)")]
     [SerializeField] private Route[] routes;
 
     // Private Variables.
@@ -27,7 +27,7 @@ public class CameraMovement : MonoBehaviour
 
     private void Start()
     {
-        target = routes[routeTracker].route[0];
+        target = routes[0].nodes[0];
     }
 
     private void Update()
@@ -126,7 +126,7 @@ public class CameraMovement : MonoBehaviour
     {
         routeFinished = false;
         print("Start New Route: Route " + routeTracker);
-        return routes[routeTracker].route[0];
+        return routes[routeTracker].nodes[0];
     }
 
     /// <summary>
@@ -146,13 +146,13 @@ public class CameraMovement : MonoBehaviour
 
         // Make sure the new point doesn't cause a IndexOutOfRangeException. 
         // If it does, Increase RouteTracker and declare Route finished
-        if (pointCounter > routes[routeTracker].route.Length - 1)
+        if (pointCounter > routes[routeTracker].nodes.Length - 1)
         {
             IncreaseRouteTracker();
             routeFinished = true;
         }
 
-        return routes[routeTracker].route[pointCounter];
+        return routes[routeTracker].nodes[pointCounter];
     }
 
     /// <summary>
@@ -171,5 +171,5 @@ public class CameraMovement : MonoBehaviour
 [System.Serializable]
 public struct Route
 {
-    public GameObject[] route;
+    public GameObject[] nodes;
 }
