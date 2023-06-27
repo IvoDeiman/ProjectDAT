@@ -34,13 +34,13 @@ public class AudioChecker : MonoBehaviour
             other.gameObject.GetComponent<FocusEffect>().startNormal();
         }*/
 
-        if (other.gameObject.GetComponent<Target>() != null) {
-            other.gameObject.GetComponent<Target>().ScannerExit.Invoke();
-        }
+
 
         foreach (GameObject gameObject in scannedObjects) {
             if (gameObject.gameObject == other.gameObject) {
-                gameObject.gameObject.GetComponent<Target>().ScannerExit.Invoke();
+                if (other.gameObject.GetComponent<Target>() != null) {
+                    other.gameObject.GetComponent<Target>().ScannerExit.Invoke();
+                }
                 scannedObjects.Remove(gameObject);
                 return;
             }

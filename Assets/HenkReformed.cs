@@ -5,8 +5,9 @@ using UnityEngine;
 
 public class HenkReformed : MonoBehaviour
 {
+    SerialPort sp = new SerialPort("COM9", 115200);
 
-    SerialPort sp = new SerialPort("/dev/tty.usbmodem143201", 115200);
+    //SerialPort sp = new SerialPort("/dev/tty.usbmodem143201", 115200);
     Light myLight;
     private string receivedString;
 
@@ -39,7 +40,7 @@ public class HenkReformed : MonoBehaviour
 
     void SetIntensity(int Status)
     {
-        if (Status == 1)
+        if (Status == 0)
         {
             SwitchToInfrared();
             
@@ -58,6 +59,7 @@ public class HenkReformed : MonoBehaviour
             try
             {
                 receivedString = sp.ReadLine();
+                print(receivedString);
                 string[] datas = receivedString.Split(',');
 
                 int recv_angl = Mathf.RoundToInt(float.Parse(datas[0]));
@@ -66,6 +68,7 @@ public class HenkReformed : MonoBehaviour
                 SetIntensity(rcv_int);
                 //print(sp.ReadByte());
                 //Debug.Log(rcv_int.ToString());
+
 
                 gameobject.transform.eulerAngles = new Vector3(0, recv_angl, 0);
             }
@@ -80,34 +83,35 @@ public class HenkReformed : MonoBehaviour
 
     void NoInfrared()
     {
-        Debug.Log("uit");
+        //Debug.Log("uit");
         directionalLight.intensity = minIntensity;
 
 
         int LayerNum = 0;
         layer = LayerNum;
-        Debug.Log(LayerNum);
+        //Debug.Log(LayerNum);
 
-        if (transform.childCount > 0)
-
+        if (transform.childCount > 0) {
             SetLayerAllChildren(transform, LayerNum);
+        }
 
 
     }
 
     void SwitchToInfrared()
     {
-        Debug.Log("aan");
+        //Debug.Log("aan");
         directionalLight.intensity = maxIntensity;
 
         int LayerNum = 6;
         layer = LayerNum;
-        Debug.Log(LayerNum);
+        //Debug.Log(LayerNum);
 
-        if (transform.childCount > 0)
-
+        if (transform.childCount > 0) {
             SetLayerAllChildren(transform, LayerNum);
-        Debug.Log(LayerNum);
+        }
+
+        //Debug.Log(LayerNum);
 
 
 
