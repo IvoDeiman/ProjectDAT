@@ -359,6 +359,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b674e4fabe74edb49b71914d1735d6b1, type: 3}
+--- !u!1 &82344737 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: b674e4fabe74edb49b71914d1735d6b1,
+    type: 3}
+  m_PrefabInstance: {fileID: 82344736}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &103111377
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1082,6 +1088,74 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 82344736}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &367515165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 82344737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04cecb91051d5634399b5114d7915421, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ScannerExit:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5498360939849072854}
+        m_TargetAssemblyTypeName: AddInfraredLayer, Assembly-CSharp
+        m_MethodName: ResetLayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  ScannerEnter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5498360939849072854}
+        m_TargetAssemblyTypeName: AddInfraredLayer, Assembly-CSharp
+        m_MethodName: SetInfraredLayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &367515166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 82344737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50fdd200f091e2d4ba704111fbf077e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!64 &367515169
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 82344737}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2534964839176971238, guid: b674e4fabe74edb49b71914d1735d6b1, type: 3}
 --- !u!1001 &374759591
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1161,6 +1235,216 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 374759591}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &395984387
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 395984391}
+  - component: {fileID: 395984390}
+  - component: {fileID: 395984389}
+  - component: {fileID: 395984388}
+  - component: {fileID: 395984393}
+  - component: {fileID: 395984392}
+  m_Layer: 0
+  m_Name: AudioTest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &395984388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 395984387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d69738580dfd765468492eca2afbf1f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  loud: 1
+  normal: 0.3
+--- !u!114 &395984389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 395984387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04cecb91051d5634399b5114d7915421, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ScannerExit:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 395984388}
+        m_TargetAssemblyTypeName: EnhanceSound, Assembly-CSharp
+        m_MethodName: NormalizeAudioVolume
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  ScannerEnter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 395984388}
+        m_TargetAssemblyTypeName: EnhanceSound, Assembly-CSharp
+        m_MethodName: EnhanceAudioVolume
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!82 &395984390
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 395984387}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 995c1deeaa1bf4bca9aa13020c1eae8f, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.324
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 108.09747
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &395984391
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 395984387}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -275.74, y: 104.52, z: 253.84}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &395984392
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 395984387}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &395984393
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 395984387}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &400030872
 GameObject:
   m_ObjectHideFlags: 0
@@ -1325,6 +1609,80 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 62ac45af78a970e4a8bd1447a79b753f, type: 3}
+--- !u!1 &632095249 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4057665878677803417, guid: 62ac45af78a970e4a8bd1447a79b753f,
+    type: 3}
+  m_PrefabInstance: {fileID: 632095248}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &632095250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 632095249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04cecb91051d5634399b5114d7915421, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ScannerExit:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5498360939849072854}
+        m_TargetAssemblyTypeName: AddInfraredLayer, Assembly-CSharp
+        m_MethodName: ResetLayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  ScannerEnter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5498360939849072854}
+        m_TargetAssemblyTypeName: AddInfraredLayer, Assembly-CSharp
+        m_MethodName: SetInfraredLayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &632095251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 632095249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50fdd200f091e2d4ba704111fbf077e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!64 &632095255
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 632095249}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 1598085ab955606498c4190e785e9cd6, type: 3}
 --- !u!4 &634382832 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4057665878678293945, guid: 62ac45af78a970e4a8bd1447a79b753f,
@@ -3321,6 +3679,80 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 62ac45af78a970e4a8bd1447a79b753f, type: 3}
+--- !u!1 &1524044199 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4057665878677803417, guid: 62ac45af78a970e4a8bd1447a79b753f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1524044198}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1524044200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1524044199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04cecb91051d5634399b5114d7915421, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ScannerExit:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5498360939849072854}
+        m_TargetAssemblyTypeName: AddInfraredLayer, Assembly-CSharp
+        m_MethodName: ResetLayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  ScannerEnter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5498360939849072854}
+        m_TargetAssemblyTypeName: AddInfraredLayer, Assembly-CSharp
+        m_MethodName: SetInfraredLayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1524044201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1524044199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50fdd200f091e2d4ba704111fbf077e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!64 &1524044205
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1524044199}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 1598085ab955606498c4190e785e9cd6, type: 3}
 --- !u!1 &1655860289
 GameObject:
   m_ObjectHideFlags: 0
@@ -3571,6 +4003,80 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 62ac45af78a970e4a8bd1447a79b753f, type: 3}
+--- !u!1 &1699816077 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4057665878677803417, guid: 62ac45af78a970e4a8bd1447a79b753f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1699816076}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1699816078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1699816077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04cecb91051d5634399b5114d7915421, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ScannerExit:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5498360939849072854}
+        m_TargetAssemblyTypeName: AddInfraredLayer, Assembly-CSharp
+        m_MethodName: ResetLayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  ScannerEnter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5498360939849072854}
+        m_TargetAssemblyTypeName: AddInfraredLayer, Assembly-CSharp
+        m_MethodName: SetInfraredLayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1699816079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1699816077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50fdd200f091e2d4ba704111fbf077e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!64 &1699816083
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1699816077}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 1598085ab955606498c4190e785e9cd6, type: 3}
 --- !u!1 &1727730756
 GameObject:
   m_ObjectHideFlags: 0
@@ -3588,7 +4094,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!95 &1727730757
 Animator:
   serializedVersion: 5
@@ -4242,6 +4748,8 @@ GameObject:
   - component: {fileID: 2011982076}
   - component: {fileID: 2011982075}
   - component: {fileID: 2011982074}
+  - component: {fileID: 2011982078}
+  - component: {fileID: 2011982077}
   m_Layer: 0
   m_Name: Mesh157
   m_TagString: Untagged
@@ -4328,6 +4836,60 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2011982071}
   m_Mesh: {fileID: 7315484823027161132, guid: 550c437082721aa42ac3fc3d4aa8af6f, type: 3}
+--- !u!114 &2011982077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2011982071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50fdd200f091e2d4ba704111fbf077e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2011982078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2011982071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04cecb91051d5634399b5114d7915421, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ScannerExit:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2011982077}
+        m_TargetAssemblyTypeName: AddInfraredLayer, Assembly-CSharp
+        m_MethodName: ResetLayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  ScannerEnter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2011982077}
+        m_TargetAssemblyTypeName: AddInfraredLayer, Assembly-CSharp
+        m_MethodName: SetInfraredLayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2096170519
 GameObject:
   m_ObjectHideFlags: 0
@@ -4747,6 +5309,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PassOutOrb
       objectReference: {fileID: 0}
+    - target: {fileID: 7829136637598519060, guid: d74159d6576657741a1f80c9aec7acc1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d74159d6576657741a1f80c9aec7acc1, type: 3}
 --- !u!4 &5283580969994502755 stripped
@@ -4821,6 +5388,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: WobbleOrb
+      objectReference: {fileID: 0}
+    - target: {fileID: 5283580971167313477, guid: a8eaf6ae5501b1e4e91d812700d2b147,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8eaf6ae5501b1e4e91d812700d2b147, type: 3}
@@ -4923,3 +5495,77 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 62ac45af78a970e4a8bd1447a79b753f, type: 3}
+--- !u!1 &5498360939849072853 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4057665878677803417, guid: 62ac45af78a970e4a8bd1447a79b753f,
+    type: 3}
+  m_PrefabInstance: {fileID: 5498360939849072852}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5498360939849072854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5498360939849072853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50fdd200f091e2d4ba704111fbf077e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5498360939849072855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5498360939849072853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04cecb91051d5634399b5114d7915421, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ScannerExit:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5498360939849072854}
+        m_TargetAssemblyTypeName: AddInfraredLayer, Assembly-CSharp
+        m_MethodName: ResetLayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  ScannerEnter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5498360939849072854}
+        m_TargetAssemblyTypeName: AddInfraredLayer, Assembly-CSharp
+        m_MethodName: SetInfraredLayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!64 &5498360939849072859
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5498360939849072853}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 1598085ab955606498c4190e785e9cd6, type: 3}
