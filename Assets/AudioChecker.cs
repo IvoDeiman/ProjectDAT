@@ -54,7 +54,6 @@ public class AudioChecker : MonoBehaviour
             foreach (Target target in scannedTargets)
             {
                 // Only invoke ScannerExit if target is invoking ScannerEnter.
-                // if (target.IsInvoking("ScannerEnter"))
                     target.ScannerExit.Invoke();
             }
     }
@@ -67,8 +66,7 @@ public class AudioChecker : MonoBehaviour
 
         // In case the target is leaving the trigger while still invoking ScannerEnter,
         // Switch it back to ScannerExit.
-        if (otherTarget.IsInvoking("ScannerEnter"))
-            otherTarget.ScannerExit.Invoke();
+        otherTarget.ScannerExit.Invoke();
 
         // Remove other gameObject from the scannedObjects List.
         if (scannedObjects.Contains(other.gameObject))
