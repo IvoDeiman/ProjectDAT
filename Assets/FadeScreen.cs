@@ -9,7 +9,7 @@ public class FadeScreen : MonoBehaviour
 
     void Start()
     {
-        anim = GameObject.FindGameObjectWithTag("Fade").GetComponent<Animator>();
+        anim = GetComponent<Animator>();
     }
 
     private void Update() {

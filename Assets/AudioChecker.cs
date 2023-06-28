@@ -5,7 +5,7 @@ using UnityEngine;
 public class AudioChecker : MonoBehaviour
 {
 
-    public List<GameObject> audios = new List<GameObject>();
+    public List<GameObject> scannedObjects = new List<GameObject>();
     public float rotateAngle = .5f;
 
 
@@ -16,23 +16,32 @@ public class AudioChecker : MonoBehaviour
     private void OnTriggerEnter(Collider other) {
         // fuck off capsule
         if (other.gameObject.name == "Capsule") return;
+        if (other.gameObject.GetComponent<Target>() != null) {
+            other.gameObject.GetComponent<Target>().ScannerEnter.Invoke();
+        }
         // executing unity event on object to start senses
+        /*
         if (other.gameObject.GetComponent<FocusEffect>() != null) {
             other.gameObject.GetComponent<FocusEffect>().startEnhance();
-        }
-        audios.Add(other.gameObject);
+        }*/
+        scannedObjects.Add(other.gameObject);
 
     }
     private void OnTriggerExit(Collider other) {
         if (other.gameObject.name == "Capsule") return;
-
+        /*
         if (other.gameObject.GetComponent<FocusEffect>() != null) {
             other.gameObject.GetComponent<FocusEffect>().startNormal();
-        }
+        }*/
 
-        foreach (GameObject audio in audios) {
-            if (audio.gameObject == other.gameObject) {
-                audios.Remove(audio);
+
+
+        foreach (GameObject gameObject in scannedObjects) {
+            if (gameObject.gameObject == other.gameObject) {
+                if (other.gameObject.GetComponent<Target>() != null) {
+                    other.gameObject.GetComponent<Target>().ScannerExit.Invoke();
+                }
+                scannedObjects.Remove(gameObject);
                 return;
             }
         }

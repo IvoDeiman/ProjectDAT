@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/FPSTest - Copy.unity
+    guid: 71ad4754a54211f41b9eb0984545cd9c
   m_configObjects: {}

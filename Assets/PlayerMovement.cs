@@ -20,7 +20,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float speed = 10f;
 
     private void Start() {
-        fade = GameObject.FindGameObjectWithTag("FadeCool").GetComponent<FadeScreen>();
+        fade = GameObject.FindGameObjectWithTag("Fade").GetComponent<FadeScreen>();
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
         SwitchLocation();
     }
