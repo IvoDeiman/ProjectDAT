@@ -50,7 +50,7 @@ public class AudioChecker : MonoBehaviour
                     target.ScannerEnter.Invoke();
             }
         //When button is let go, Invoke ScannerExit.
-        else if (Input.GetKeyUp(KeyCode.E))
+        else
             foreach (Target target in scannedTargets)
             {
                 // Only invoke ScannerExit if target is invoking ScannerEnter.
