@@ -15,7 +15,8 @@ public class ProgressLogic : MonoBehaviour
     }
 
     public void StartProgression() {
-        if (isProgressing) return;
+        if (isProgressing || gameObject.activeSelf == false) return;
+        print("Start progression");
         StartCoroutine(ChannelingProgression());
     }
 
@@ -32,7 +33,11 @@ public class ProgressLogic : MonoBehaviour
         isProgressing = false;
         //TODO: start walking
         fade.ToggleFade();
-        followUpProgressionCylinder.SetActive(true);
+        if (followUpProgressionCylinder != null) {
+            followUpProgressionCylinder.SetActive(true);
+        } else {
+            print("Reached last section of the game. Play fall down animation here");
+        }
         gameObject.SetActive(false);
     }
 
