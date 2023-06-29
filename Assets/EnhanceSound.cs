@@ -4,22 +4,29 @@ using UnityEngine;
 
 public class EnhanceSound : MonoBehaviour
 {
-
-    private AudioSource _audio;
     [Header("Volume settings are between values 0 and 1")]
     [SerializeField] private float loud, normal;
 
+    private AudioSource _audio;
+    private float threshold = 0.01f;
 
-    private void Start() {
+    private void Awake()
+    {
         _audio = GetComponent<AudioSource>();
     }
 
-    public void EnhanceAudioVolume() {
-        _audio.volume = loud;
+    public void EnhanceAudioVolume()
+    {
+        if (_audio.volume >= loud - threshold) return;
+
+        _audio.volume = Mathf.Lerp(_audio.volume, loud, 1f * Time.deltaTime);
     }
 
-    public void NormalizeAudioVolume() {
-        _audio.volume = normal;
+    public void NormalizeAudioVolume()
+    {
+        if (_audio.volume <= normal + threshold) return;
+
+        _audio.volume = Mathf.Lerp(_audio.volume, normal, 1f * Time.deltaTime);
     }
 
 }
