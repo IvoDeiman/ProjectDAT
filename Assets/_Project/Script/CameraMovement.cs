@@ -56,7 +56,7 @@ public class CameraMovement : MonoBehaviour
                 target = GetNextPoint();
         }
 
-        //print(pointCounter);
+        print(pointCounter);
 
         if (target != null && !routeFinished)
         {
