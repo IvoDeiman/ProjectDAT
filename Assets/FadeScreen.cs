@@ -22,6 +22,8 @@ public class FadeScreen : MonoBehaviour
     public void ToggleFade() {
         anim.SetTrigger("ToggleFade");
     }
-
+    public void BlackScreenOfDeath() {
+        anim.SetTrigger("Blackscreen");
+    }
 
 }

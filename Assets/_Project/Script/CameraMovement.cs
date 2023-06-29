@@ -12,6 +12,8 @@ public class CameraMovement : MonoBehaviour
     [SerializeField] private float movementSpeed = 1.0f;
     [SerializeField] private float lerpMovementSpeed = 0.5f;
     [SerializeField] private float distanceThreshold = 0.1f;
+    [Header("Dying timer")]
+    [SerializeField] private float headacheDeathDelay;
     [Header("Routes (A ROUTE MUST HAVE 4 NODES)")]
     [SerializeField] private Route[] routes;
 
@@ -21,6 +23,7 @@ public class CameraMovement : MonoBehaviour
     private Rigidbody _rigidbody;
     private bool noRoutes, routeFinished, isFaded = false;
     private FadeScreen fade;
+    private Animator _anim;
 
     private void Awake()
     {
@@ -30,6 +33,7 @@ public class CameraMovement : MonoBehaviour
     private void Start()
     {
         fade = fadeUI.GetComponent<FadeScreen>();
+        _anim = GetComponent<Animator>();
     }
 
     private void Update()
@@ -119,8 +123,24 @@ public class CameraMovement : MonoBehaviour
 
     private void FinalCutscene()
     {
+        // Enable headache orbs (child position 1 and 2)
+        transform.GetChild(0).gameObject.SetActive(true);
+        transform.GetChild(1).gameObject.SetActive(true);
+        //transform.GetChild(2).gameObject.GetComponent<Animator>().Play();
+        StartCoroutine(StartFalling());
+        //TODO: Snap to BLack
         throw new NotImplementedException();
         //TODO: ADD BEHAVIOUR FOR FINAL CUTSCENE
+    }
+
+    public void BlackscreenOfDeath() {
+        fade.BlackScreenOfDeath();
+    }
+
+    private IEnumerator StartFalling() {
+        yield return new WaitForSeconds(headacheDeathDelay);
+        _anim.enabled = true;
+        //_anim.SetTrigger("StartFalling");
     }
 
     /// <summary>
