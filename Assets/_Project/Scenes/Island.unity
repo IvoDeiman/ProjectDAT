@@ -856,6 +856,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2013209193}
     m_Modifications:
+    - target: {fileID: 1990127925328773772, guid: cab5ea3df44bd244ab0e19914d5a51f8,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1303274341}
     - target: {fileID: 1990127925328773773, guid: cab5ea3df44bd244ab0e19914d5a51f8,
         type: 3}
       propertyPath: m_Icon
@@ -1709,6 +1714,12 @@ Transform:
   m_Father: {fileID: 1165773260}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &245912736 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1990127925328773773, guid: cab5ea3df44bd244ab0e19914d5a51f8,
+    type: 3}
+  m_PrefabInstance: {fileID: 1413270462}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &246278465 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100048, guid: d3dfb551f587bf148b9902d66279308b,
@@ -4050,6 +4061,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1542632384}
     m_Modifications:
+    - target: {fileID: 1990127925328773772, guid: cab5ea3df44bd244ab0e19914d5a51f8,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1303274341}
+    - target: {fileID: 1990127925328773772, guid: cab5ea3df44bd244ab0e19914d5a51f8,
+        type: 3}
+      propertyPath: followUpProgressionCylinder
+      value: 
+      objectReference: {fileID: 245912736}
     - target: {fileID: 1990127925328773773, guid: cab5ea3df44bd244ab0e19914d5a51f8,
         type: 3}
       propertyPath: m_Icon
@@ -4060,6 +4081,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ProgressionCylinder
+      objectReference: {fileID: 0}
+    - target: {fileID: 1990127925328773777, guid: cab5ea3df44bd244ab0e19914d5a51f8,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1990127925328773783, guid: cab5ea3df44bd244ab0e19914d5a51f8,
         type: 3}
@@ -8731,17 +8757,17 @@ PrefabInstance:
     - target: {fileID: 1696592185873377368, guid: 193032a8102d39644bb1c9d2e9e9b2c0,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1696592185873377368, guid: 193032a8102d39644bb1c9d2e9e9b2c0,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1696592185873377368, guid: 193032a8102d39644bb1c9d2e9e9b2c0,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1696592185873377372, guid: 193032a8102d39644bb1c9d2e9e9b2c0,
         type: 3}
@@ -8811,17 +8837,17 @@ PrefabInstance:
     - target: {fileID: 8974153390952586526, guid: 193032a8102d39644bb1c9d2e9e9b2c0,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8974153390952586526, guid: 193032a8102d39644bb1c9d2e9e9b2c0,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8974153390952586526, guid: 193032a8102d39644bb1c9d2e9e9b2c0,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 5
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 193032a8102d39644bb1c9d2e9e9b2c0, type: 3}
@@ -9264,6 +9290,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 247931296}
     m_Modifications:
+    - target: {fileID: 1990127925328773772, guid: cab5ea3df44bd244ab0e19914d5a51f8,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1303274341}
+    - target: {fileID: 1990127925328773772, guid: cab5ea3df44bd244ab0e19914d5a51f8,
+        type: 3}
+      propertyPath: followUpProgressionCylinder
+      value: 
+      objectReference: {fileID: 1792312322}
     - target: {fileID: 1990127925328773773, guid: cab5ea3df44bd244ab0e19914d5a51f8,
         type: 3}
       propertyPath: m_Icon
@@ -17166,6 +17202,12 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: d152fbd46e97942458c57951d5730dec, type: 3}
+--- !u!1 &1792312322 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1990127925328773773, guid: cab5ea3df44bd244ab0e19914d5a51f8,
+    type: 3}
+  m_PrefabInstance: {fileID: 118817871}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1793207434
 GameObject:
   m_ObjectHideFlags: 0

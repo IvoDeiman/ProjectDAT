@@ -48,6 +48,18 @@ public class CameraMovement : MonoBehaviour
                 target = GetStartRoute();
     }
 
+    public bool StartMoving() {
+        if (target == null) {
+            target = routes[0].nodes[0];
+            return true;
+        } else if (routeFinished) {
+            target = GetStartRoute();
+            return true;
+        }
+        return false;
+        // return false, if player is not going to be progressing
+    }
+
     /// <summary>
     /// Moves the Camera along the current Route.
     /// </summary>

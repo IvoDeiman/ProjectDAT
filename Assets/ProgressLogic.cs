@@ -7,7 +7,12 @@ public class ProgressLogic : MonoBehaviour
     [SerializeField] private float timeToStartProgression = 5f;
     [SerializeField] private GameObject followUpProgressionCylinder;
     private bool isProgressing = false;
+    private bool willMove = false;
+    public CameraMovement player;
 
+    private void Start() {
+        //player = GetComponent<CameraMovement>();
+    }
     public void StartProgression() {
         if (isProgressing || gameObject.activeSelf == false) return;
         print("Start progression");
@@ -26,12 +31,14 @@ public class ProgressLogic : MonoBehaviour
         print("Done progressing, should start walking now");
         isProgressing = false;
         //TODO: start walking
-        if (followUpProgressionCylinder != null) {
+        willMove = player.StartMoving();
+        // using willmove to make sure player will actually start moving. to ensure progression cylinder doesnt disable before route is finished
+        if (followUpProgressionCylinder != null && willMove == true) {
             followUpProgressionCylinder.SetActive(true);
         } else {
             print("Reached last section of the game. Play fall down animation here");
         }
-        gameObject.SetActive(false);
+        if (willMove) gameObject.SetActive(false);
     }
 
 
