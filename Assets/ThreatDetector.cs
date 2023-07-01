@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class ThreatDetector : MonoBehaviour
 {
-    [SerializeField][Tooltip("Should exactly match the name of the the tag.")] private string threatTag = "Threat";
+    [SerializeField][Tooltip("Should exactly match the name of the the tag.")]
+    private string threatTag = "Threat";
 
     private GameObject threatObject;
     private Target threatTarget;
