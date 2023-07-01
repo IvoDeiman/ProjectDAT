@@ -4,18 +4,18 @@ using UnityEngine;
 
 public class ProgressLogic : MonoBehaviour
 {
-    private FadeScreen fade;
-
     [SerializeField] private float timeToStartProgression = 5f;
     [SerializeField] private GameObject followUpProgressionCylinder;
     private bool isProgressing = false;
+    private bool willMove = false;
+    public CameraMovement player;
 
     private void Start() {
-        fade = GameObject.FindGameObjectWithTag("Fade").GetComponent<FadeScreen>();
+        //player = GetComponent<CameraMovement>();
     }
-
     public void StartProgression() {
-        if (isProgressing) return;
+        if (isProgressing || gameObject.activeSelf == false) return;
+        print("Start progression");
         StartCoroutine(ChannelingProgression());
     }
 
@@ -31,9 +31,14 @@ public class ProgressLogic : MonoBehaviour
         print("Done progressing, should start walking now");
         isProgressing = false;
         //TODO: start walking
-        fade.ToggleFade();
-        followUpProgressionCylinder.SetActive(true);
-        gameObject.SetActive(false);
+        willMove = player.StartMoving();
+        // using willmove to make sure player will actually start moving. to ensure progression cylinder doesnt disable before route is finished
+        if (followUpProgressionCylinder != null && willMove == true) {
+            followUpProgressionCylinder.SetActive(true);
+        } else {
+            print("Reached last section of the game. Play fall down animation here");
+        }
+        if (willMove) gameObject.SetActive(false);
     }
 
 

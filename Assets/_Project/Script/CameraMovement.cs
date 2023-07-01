@@ -1,14 +1,19 @@
 using System;
+using System.Collections;
 using UnityEngine;
 
 public class CameraMovement : MonoBehaviour
 {
     // All serializable variables.
-    [Header("Dependencies")]
+    [Header("Fading")]
     [SerializeField] private GameObject fadeUI;
+    [SerializeField] private float secondsTilFadeIn = 1.0f;
     [Header("Speed")]
     [SerializeField] private float movementSpeed = 1.0f;
+    [SerializeField] private float lerpMovementSpeed = 0.5f;
     [SerializeField] private float distanceThreshold = 0.1f;
+    [Header("Dying timer")]
+    [SerializeField] private float headacheDeathDelay;
     [Header("Routes (A ROUTE MUST HAVE 4 NODES)")]
     [SerializeField] private Route[] routes;
 
@@ -18,25 +23,41 @@ public class CameraMovement : MonoBehaviour
     private Rigidbody _rigidbody;
     private bool noRoutes, routeFinished, isFaded = false;
     private FadeScreen fade;
+    private Animator _anim;
 
     private void Awake()
     {
         _rigidbody = GetComponent<Rigidbody>();
-        fade = GetComponent<FadeScreen>();
     }
 
     private void Start()
     {
-        target = routes[0].nodes[0];
+        fade = fadeUI.GetComponent<FadeScreen>();
+        _anim = GetComponent<Animator>();
     }
 
     private void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Space) && target == null)
+            target = routes[0].nodes[0];
+
         MoveCamera();
 
         if (routeFinished)
-            if (Input.GetKeyDown(KeyCode.Space))
+            if (Input.GetKeyDown(KeyCode.Space) && target != null)
                 target = GetStartRoute();
+    }
+
+    public bool StartMoving() {
+        if (target == null) {
+            target = routes[0].nodes[0];
+            return true;
+        } else if (routeFinished) {
+            target = GetStartRoute();
+            return true;
+        }
+        return false;
+        // return false, if player is not going to be progressing
     }
 
     /// <summary>
@@ -44,7 +65,7 @@ public class CameraMovement : MonoBehaviour
     /// </summary>
     private void MoveCamera()
     {
-        if (noRoutes || routeFinished)
+        if (noRoutes || routeFinished || target == null)
             return;
 
         // If the camera is deemed close enough to the target position, 
@@ -56,7 +77,7 @@ public class CameraMovement : MonoBehaviour
                 target = GetNextPoint();
         }
 
-        //print(pointCounter);
+        print(pointCounter);
 
         if (target != null && !routeFinished)
         {
@@ -68,7 +89,7 @@ public class CameraMovement : MonoBehaviour
             else if (pointCounter == 1)
             {
                 if (!isFaded)
-                    TriggerFade();
+                    StartCoroutine(FadeCountdown());
 
                 // Move Camera by using rigidbody to start slow and end faster.
                 _rigidbody.AddForce(movementSpeed * Vector3.Normalize(targetPos - transform.position));
@@ -81,7 +102,7 @@ public class CameraMovement : MonoBehaviour
                 // Move Camera by using a lerp to begin fast and end slow.
                 // Make sure the lerp stop within the threshold to avoid it moving indefinetly.
                 if (Vector3.Distance(transform.position, target.transform.position) > 0.5)
-                    transform.position = Vector3.Lerp(transform.position, targetPos, movementSpeed * Time.deltaTime / 2);
+                    transform.position = Vector3.Lerp(transform.position, targetPos, lerpMovementSpeed * Time.deltaTime);
                 else
                 {
                     // Declare route finished and increase route tracker.
@@ -114,8 +135,24 @@ public class CameraMovement : MonoBehaviour
 
     private void FinalCutscene()
     {
+        // Enable headache orbs (child position 1 and 2)
+        transform.GetChild(0).gameObject.SetActive(true);
+        transform.GetChild(1).gameObject.SetActive(true);
+        //transform.GetChild(2).gameObject.GetComponent<Animator>().Play();
+        StartCoroutine(StartFalling());
+        //TODO: Snap to BLack
         throw new NotImplementedException();
         //TODO: ADD BEHAVIOUR FOR FINAL CUTSCENE
+    }
+
+    public void BlackscreenOfDeath() {
+        fade.BlackScreenOfDeath();
+    }
+
+    private IEnumerator StartFalling() {
+        yield return new WaitForSeconds(headacheDeathDelay);
+        _anim.enabled = true;
+        //_anim.SetTrigger("StartFalling");
     }
 
     /// <summary>
@@ -162,9 +199,17 @@ public class CameraMovement : MonoBehaviour
     {
         if (fade != null)
         {
+            print("Triggered Fade");
             fade.ToggleFade();
             isFaded = !isFaded;
         }
+    }
+
+    private IEnumerator FadeCountdown()
+    {
+        isFaded = true;
+        yield return new WaitForSeconds(secondsTilFadeIn);
+        fade.ToggleFade();
     }
 }
 
