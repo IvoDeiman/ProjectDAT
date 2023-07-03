@@ -33,9 +33,7 @@ public class CameraMovement : MonoBehaviour
     private void Awake()
     {
         _rigidbody = GetComponent<Rigidbody>();
-        AudioConfiguration config = AudioSettings.GetConfiguration();
-        config.speakerMode = AudioSpeakerMode.Mode5point1;
-        AudioSettings.Reset(config);
+
     }
 
     private void Start()
