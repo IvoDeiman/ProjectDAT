@@ -8,6 +8,7 @@ using UnityEngine.Events;
 public class AudioScriptPlayer : MonoBehaviour
 {
     [SerializeField] private AudioSource _audio;
+    [SerializeField] private float delayedPlaybackTime;
     [SerializeField] private VoiceOver[] voiceoverScenes;
     [Header("Debug")]
     [SerializeField] private bool logging = true;
@@ -16,7 +17,7 @@ public class AudioScriptPlayer : MonoBehaviour
 
     private void Start()
     {
-        StartVoiceOverImmediate(0);
+        StartCoroutine(ContinueVoiceOver(0, 1));
     }
 
     /// <summary>
@@ -26,13 +27,19 @@ public class AudioScriptPlayer : MonoBehaviour
     public void StartVoiceOverImmediate(int sceneNumber)
     {
         if (logging) print($"Voiceover | Starting Scene: {sceneNumber}");
-
-        StartCoroutine(ContinueVoiceOver(sceneNumber));
+        StartCoroutine(ContinueVoiceOver(sceneNumber, 0));
     }
 
-    private IEnumerator ContinueVoiceOver(int sceneNumber)
+    public void StartVoiceOverDelayed(int sceneNumber)
+    {
+        if (logging) print($"Voiceover | Queue Delayed Scene: {sceneNumber}");
+        StartCoroutine(ContinueVoiceOver(sceneNumber, delayedPlaybackTime));
+    }
+
+    private IEnumerator ContinueVoiceOver(int sceneNumber, float delayTime)
     {
         VoiceOver voiceOver = voiceoverScenes[sceneNumber];
+        yield return new WaitForSeconds(delayTime);
 
         if (voiceOver.voiceLines.Length - 1 > progressCounter)
         {
@@ -50,7 +57,7 @@ public class AudioScriptPlayer : MonoBehaviour
             _audio.clip = nextClip;
             _audio.Play();
             yield return new WaitForSeconds(_audio.clip.length);
-            StartCoroutine(ContinueVoiceOver(sceneNumber));
+            StartCoroutine(ContinueVoiceOver(sceneNumber, 0));
         }
         else
         {
