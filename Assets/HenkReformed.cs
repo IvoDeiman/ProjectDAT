@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class HenkReformed : MonoBehaviour
 {
-    SerialPort sp = new SerialPort("COM9", 115200);
+    SerialPort sp = new SerialPort("COM10", 9600);
 
     //SerialPort sp = new SerialPort("/dev/tty.usbmodem143201", 115200);
     Light myLight;
