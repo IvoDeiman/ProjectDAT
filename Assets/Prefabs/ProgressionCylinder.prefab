@@ -156,3 +156,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timeToStartProgression: 5
   followUpProgressionCylinder: {fileID: 0}
+  player: {fileID: 0}

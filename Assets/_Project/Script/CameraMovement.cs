@@ -22,6 +22,7 @@ public class CameraMovement : MonoBehaviour
     [Header("Routes (A ROUTE MUST HAVE 4 NODES)")]
     [SerializeField] private Route[] routes;
 
+
     // Private Variables.
     private int routeTracker, pointCounter = 0;
     private GameObject target;
@@ -44,6 +45,13 @@ public class CameraMovement : MonoBehaviour
 
     private void Update()
     {
+        if (Input.GetKeyDown(KeyCode.U)) {
+            transform.GetChild(10).gameObject.SetActive(!transform.GetChild(10).gameObject.activeSelf);
+            transform.GetChild(11).gameObject.SetActive(!transform.GetChild(11).gameObject.activeSelf);
+            transform.GetChild(12).gameObject.SetActive(!transform.GetChild(12).gameObject.activeSelf);
+            transform.GetChild(13).gameObject.SetActive(!transform.GetChild(13).gameObject.activeSelf);
+        }
+
         if (Input.GetKeyDown(KeyCode.Space) && target == null)
             target = routes[0].nodes[0];
 
@@ -169,7 +177,7 @@ public class CameraMovement : MonoBehaviour
     {
         yield return new WaitForSeconds(headacheDeathDelay);
         _anim.enabled = true;
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(8.5f);
         audioScriptPlayer.StartVoiceOverImmediate(deathVoiceOverScene);
         //_anim.SetTrigger("StartFalling");
     }

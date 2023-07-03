@@ -9,6 +9,7 @@ public class AudioScriptPlayer : MonoBehaviour
 {
     [SerializeField] private AudioSource _audio;
     [SerializeField] private float delayedPlaybackTime;
+    [SerializeField] private float sentenceEndDelay = .15f;
     [SerializeField] private VoiceOver[] voiceoverScenes;
     [Header("Debug")]
     [SerializeField] private bool logging = true;
@@ -56,7 +57,7 @@ public class AudioScriptPlayer : MonoBehaviour
             // Play the new audioclip and start recursion.
             _audio.clip = nextClip;
             _audio.Play();
-            yield return new WaitForSeconds(_audio.clip.length);
+            yield return new WaitForSeconds(_audio.clip.length + sentenceEndDelay);
             StartCoroutine(ContinueVoiceOver(sceneNumber, 0));
         }
         else

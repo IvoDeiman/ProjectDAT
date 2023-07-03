@@ -15,6 +15,7 @@ public class HenkReformed : MonoBehaviour
     [SerializeField] private ThreatDetector dangerAwareness;
     [SerializeField] private AudioChecker focusedHearing;
 
+    public GameObject[] fireflies;
     public GameObject gameobject;
     public Light directionalLight;
     public float minIntensity = 0f;
@@ -45,21 +46,33 @@ public class HenkReformed : MonoBehaviour
                 dangerAwareness.SetActive(false);
                 DisableInfrared();
                 focusedHearing.SetActive(false);
+                for (int i = 0; i < 3; i++) {
+                    fireflies[i].SetActive(false);
+                }
                 break;
             case 1:
                 focusedHearing.SetActive(false);
                 DisableInfrared();
                 dangerAwareness.SetActive(true);
+                for (int i = 0; i < 3; i++) {
+                    fireflies[i].SetActive(true);
+                }
                 break;
             case 2:
                 focusedHearing.SetActive(false);
                 dangerAwareness.SetActive(false);
                 EnableInfrared();
+                for (int i = 0; i < 3; i++) {
+                    fireflies[i].SetActive(false);
+                }
                 break;
             case 3:
                 dangerAwareness.SetActive(false);
                 DisableInfrared();
                 focusedHearing.SetActive(true);
+                for (int i = 0; i < 3; i++) {
+                    fireflies[i].SetActive(false);
+                }
                 break;
             default:
                 throw new Exception("Input outside of expected range (0-3).");
