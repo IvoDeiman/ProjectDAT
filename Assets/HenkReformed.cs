@@ -69,7 +69,7 @@ public class HenkReformed : MonoBehaviour
                 //print(sp.ReadByte());
                 //Debug.Log(rcv_int.ToString());
 
-
+                // NOTE: NOT gameObject, but variable.
                 gameobject.transform.eulerAngles = new Vector3(0, recv_angl, 0);
             }
             catch (System.Exception)

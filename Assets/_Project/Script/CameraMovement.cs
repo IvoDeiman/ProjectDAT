@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class CameraMovement : MonoBehaviour
 {
@@ -14,6 +15,9 @@ public class CameraMovement : MonoBehaviour
     [SerializeField] private float distanceThreshold = 0.1f;
     [Header("Dying timer")]
     [SerializeField] private float headacheDeathDelay;
+    [Header("Audio")]
+    [SerializeField] private AudioScriptPlayer audioScriptPlayer;
+    [SerializeField] private int deathVoiceOverScene;
     [Header("Routes (A ROUTE MUST HAVE 4 NODES)")]
     [SerializeField] private Route[] routes;
 
@@ -48,11 +52,15 @@ public class CameraMovement : MonoBehaviour
                 target = GetStartRoute();
     }
 
-    public bool StartMoving() {
-        if (target == null) {
+    public bool StartMoving()
+    {
+        if (target == null)
+        {
             target = routes[0].nodes[0];
             return true;
-        } else if (routeFinished) {
+        }
+        else if (routeFinished)
+        {
             target = GetStartRoute();
             return true;
         }
@@ -85,7 +93,12 @@ public class CameraMovement : MonoBehaviour
 
             // If the pointCounter is an even number. Just teleport the camera to the exact location. 
             if (pointCounter % 2 == 0)
+            {
+                if (pointCounter == 0 && routes[routeTracker].invokeUponFirstNode != null)
+                    routes[routeTracker].invokeUponFirstNode.Invoke();
+
                 transform.position = targetPos;
+            }
             else if (pointCounter == 1)
             {
                 if (!isFaded)
@@ -96,7 +109,7 @@ public class CameraMovement : MonoBehaviour
             }
             else if (pointCounter == 3)
             {
-                if(isFaded)
+                if (isFaded)
                     TriggerFade();
 
                 // Move Camera by using a lerp to begin fast and end slow.
@@ -107,11 +120,12 @@ public class CameraMovement : MonoBehaviour
                 {
                     // Declare route finished and increase route tracker.
                     print("Finished Route " + routeTracker);
+                    if (routes[routeTracker].invokeUponFinalNode != null)
+                        routes[routeTracker].invokeUponFinalNode.Invoke();
                     IncreaseRouteTracker();
                     routeFinished = true;
                 }
             }
-                
         }
     }
 
@@ -141,17 +155,19 @@ public class CameraMovement : MonoBehaviour
         //transform.GetChild(2).gameObject.GetComponent<Animator>().Play();
         StartCoroutine(StartFalling());
         //TODO: Snap to BLack
-        throw new NotImplementedException();
-        //TODO: ADD BEHAVIOUR FOR FINAL CUTSCENE
     }
 
-    public void BlackscreenOfDeath() {
+    public void BlackscreenOfDeath()
+    {
         fade.BlackScreenOfDeath();
     }
 
-    private IEnumerator StartFalling() {
+    private IEnumerator StartFalling()
+    {
         yield return new WaitForSeconds(headacheDeathDelay);
         _anim.enabled = true;
+        yield return new WaitForSeconds(5);
+        audioScriptPlayer.StartVoiceOverImmediate(deathVoiceOverScene);
         //_anim.SetTrigger("StartFalling");
     }
 
@@ -217,4 +233,6 @@ public class CameraMovement : MonoBehaviour
 public struct Route
 {
     public GameObject[] nodes;
+    public UnityEvent invokeUponFirstNode;
+    public UnityEvent invokeUponFinalNode;
 }
