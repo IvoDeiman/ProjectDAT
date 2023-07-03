@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO.Ports;
@@ -11,6 +12,9 @@ public class HenkReformed : MonoBehaviour
     Light myLight;
     private string receivedString;
 
+    [SerializeField] private ThreatDetector dangerAwareness;
+    [SerializeField] private AudioChecker focusedHearing;
+
     public GameObject gameobject;
     public Light directionalLight;
     public float minIntensity = 0f;
@@ -18,15 +22,10 @@ public class HenkReformed : MonoBehaviour
 
     //public GameObject infraObject;
     LayerMask layer;
-    
-
-
 
     // Start is called before the first frame update
     void Start()
     {
-
-
         Application.targetFrameRate = 300;
 
         sp.Open();
@@ -38,22 +37,38 @@ public class HenkReformed : MonoBehaviour
         sp.ReadTimeout = 25;
     }
 
-    void SetIntensity(int Status)
+    private void InterpretInput(int input)
     {
-        if (Status == 0)
+        switch (input)
         {
-            SwitchToInfrared();
-            
-        } else {
-            NoInfrared();
-            
+            case 0:
+                dangerAwareness.SetActive(false);
+                DisableInfrared();
+                focusedHearing.SetActive(false);
+                break;
+            case 1:
+                focusedHearing.SetActive(false);
+                DisableInfrared();
+                dangerAwareness.SetActive(true);
+                break;
+            case 2:
+                focusedHearing.SetActive(false);
+                dangerAwareness.SetActive(false);
+                EnableInfrared();
+                break;
+            case 3:
+                dangerAwareness.SetActive(false);
+                DisableInfrared();
+                focusedHearing.SetActive(true);
+                break;
+            default:
+                throw new Exception("Input outside of expected range (0-3).");
         }
     }
 
     // Update is called once per frame
     void Update()
     {
-
         if (sp.IsOpen)
         {
             try
@@ -65,63 +80,47 @@ public class HenkReformed : MonoBehaviour
                 int recv_angl = Mathf.RoundToInt(float.Parse(datas[0]));
                 int rcv_int = Mathf.RoundToInt(float.Parse(datas[1]));
 
-                SetIntensity(rcv_int);
+                InterpretInput(rcv_int);
+
                 //print(sp.ReadByte());
                 //Debug.Log(rcv_int.ToString());
 
                 // NOTE: NOT gameObject, but variable.
                 gameobject.transform.eulerAngles = new Vector3(0, recv_angl, 0);
             }
-            catch (System.Exception)
+            catch (Exception)
             {
-
-
             }
         }
     }
 
-
-    void NoInfrared()
+    void DisableInfrared()
     {
-        //Debug.Log("uit");
         directionalLight.intensity = minIntensity;
-
 
         int LayerNum = 0;
         layer = LayerNum;
-        //Debug.Log(LayerNum);
 
-        if (transform.childCount > 0) {
+        if (transform.childCount > 0)
             SetLayerAllChildren(transform, LayerNum);
-        }
-
-
     }
 
-    void SwitchToInfrared()
+    void EnableInfrared()
     {
-        //Debug.Log("aan");
         directionalLight.intensity = maxIntensity;
 
         int LayerNum = 6;
         layer = LayerNum;
-        //Debug.Log(LayerNum);
 
-        if (transform.childCount > 0) {
+        if (transform.childCount > 0)
             SetLayerAllChildren(transform, LayerNum);
-        }
-
-        //Debug.Log(LayerNum);
-
-
-
     }
 
     void SetLayerAllChildren(Transform root, int layer)
     {
-        var children = root.GetComponentsInChildren<Transform>(includeInactive: true);
+        Transform[] children = root.GetComponentsInChildren<Transform>(includeInactive: true);
 
-        foreach (var child in children)
+        foreach (Transform child in children)
         {
             child.gameObject.layer = layer;
         }

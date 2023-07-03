@@ -141,7 +141,8 @@ public class CameraMovement : MonoBehaviour
         {
             noRoutes = true;
             FinalCutscene();
-            throw new Exception("NOTICE: ALL ROUTES FINISHED");
+            print("NOTICE: ALL ROUTES FINISHED");
+            return;
         }
         print("increased routeTracker to " + routeTracker);
 

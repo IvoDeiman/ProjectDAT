@@ -4,25 +4,32 @@ using UnityEngine;
 
 public class ThreatDetector : MonoBehaviour
 {
-    [SerializeField][Tooltip("Should exactly match the name of the the tag.")]
+    [SerializeField]
+    [Tooltip("Should exactly match the name of the the tag.")]
     private string threatTag = "Threat";
 
     private GameObject threatObject;
     private Target threatTarget;
+    private bool isActive;
 
-    public void OnCollisionEnter(Collision other)
+    public void SetActive(bool value)
+    {
+        isActive = value;
+    }
+
+    public void OnTriggerEnter(Collider other)
     {
         if (!other.gameObject.CompareTag(threatTag)) return;
 
         threatObject = other.gameObject;
-        threatTarget = gameObject.GetComponent<Target>();
+        threatTarget = threatObject.GetComponent<Target>();
     }
 
-    public void OnCollisionStay(Collision other)
+    public void OnTriggerStay(Collider other)
     {
         if (other.gameObject != threatObject || threatObject == null) return;
 
-        if (Input.GetKey(KeyCode.Q))
+        if (Input.GetKey(KeyCode.Q) || isActive)
         {
             if (!threatTarget.IsInvoking("ScannerEnter"))
                 threatTarget.ScannerEnter.Invoke();
@@ -31,7 +38,7 @@ public class ThreatDetector : MonoBehaviour
             threatTarget.ScannerExit.Invoke();
     }
 
-    public void OnCollisionExit(Collision other)
+    public void OnTriggerExit(Collider other)
     {
         if (other.gameObject != threatObject || threatObject == null) return;
 

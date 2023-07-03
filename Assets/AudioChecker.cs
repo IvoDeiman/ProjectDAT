@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -11,8 +12,8 @@ public class AudioChecker : MonoBehaviour
 
     // Should be a copy of the scannedObjects list but instead of GameObject data, 
     // It should have Target data, allowing is to invoke without constant GetComponent Usage.
-    private List<Target> scannedTargets = new List<Target>(); 
-
+    private List<Target> scannedTargets = new List<Target>();
+    private bool isActive;
 
     private void Update()
     {
@@ -23,7 +24,7 @@ public class AudioChecker : MonoBehaviour
     {
         // Pretty sure this check is not needed but I'm still putting it in here for safety.
         // Also fuck off capsule.
-        if (scannedObjects.Contains(other.gameObject) || other.gameObject.name == "Capsule") return;
+        if (scannedObjects.Contains(other.gameObject) || other.gameObject.name == "Capsule" || other.gameObject.CompareTag("Threat")) return;
 
         // Removed redundant calls of GetComponent to improve performance.
         Target otherTarget = other.gameObject.GetComponent<Target>();
@@ -42,7 +43,7 @@ public class AudioChecker : MonoBehaviour
 
         //When button is pressed, Invoke ScannerEnter.
         //Must be GetKey to account for any objects entering the field.
-        if (Input.GetKey(KeyCode.E))
+        if (Input.GetKey(KeyCode.E) || isActive)
             foreach (Target target in scannedTargets)
             {
                 //Only invoke ScannerEnter if target has not invoked ScannerEnter yet.
@@ -56,6 +57,11 @@ public class AudioChecker : MonoBehaviour
                 // Only invoke ScannerExit if target is invoking ScannerEnter.
                     target.ScannerExit.Invoke();
             }
+    }
+
+    public void SetActive(bool value)
+    {
+        isActive = value;
     }
 
     private void OnTriggerExit(Collider other)
