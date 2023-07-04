@@ -54,7 +54,7 @@ public class HenkReformed : MonoBehaviour
                     fireflies[i].SetActive(false);
                 }
                 break;
-            case 2:
+            case 1:
                 focusedHearing.SetActive(false);
                 DisableInfrared();
                 dangerAwareness.SetActive(true);
@@ -62,7 +62,7 @@ public class HenkReformed : MonoBehaviour
                     fireflies[i].SetActive(true);
                 }
                 break;
-            case 3:
+            case 2:
                 focusedHearing.SetActive(false);
                 dangerAwareness.SetActive(false);
                 EnableInfrared();
@@ -70,7 +70,7 @@ public class HenkReformed : MonoBehaviour
                     fireflies[i].SetActive(false);
                 }
                 break;
-            case 1:
+            case 3:
                 dangerAwareness.SetActive(false);
                 DisableInfrared();
                 focusedHearing.SetActive(true);
@@ -113,7 +113,7 @@ public class HenkReformed : MonoBehaviour
 
     void DisableInfrared()
     {
-        directionalLight.intensity = minIntensity;
+        directionalLight.intensity = maxIntensity;
         isInfraredOn = false;
         /*
         int LayerNum = 0;
@@ -126,7 +126,7 @@ public class HenkReformed : MonoBehaviour
 
     void EnableInfrared()
     {
-        directionalLight.intensity = maxIntensity;
+        directionalLight.intensity = minIntensity;
         isInfraredOn = true;
         /*
         int LayerNum = 6;
