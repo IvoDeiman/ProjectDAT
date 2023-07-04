@@ -516,27 +516,27 @@ PrefabInstance:
     - target: {fileID: 976749517787264400, guid: df3471ffc6081ad48a04e34d370d26b2,
         type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2033846354089667726, guid: df3471ffc6081ad48a04e34d370d26b2,
         type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3882976455060074321, guid: df3471ffc6081ad48a04e34d370d26b2,
         type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4743233702365073702, guid: df3471ffc6081ad48a04e34d370d26b2,
         type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6807194570139675777, guid: df3471ffc6081ad48a04e34d370d26b2,
         type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df3471ffc6081ad48a04e34d370d26b2, type: 3}
@@ -4590,7 +4590,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: b674e4fabe74edb49b71914d1735d6b1,
         type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b674e4fabe74edb49b71914d1735d6b1,
         type: 3}
@@ -4682,67 +4682,67 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 9c690660684b5494c88ac61e360783d1, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 9c690660684b5494c88ac61e360783d1, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 9c690660684b5494c88ac61e360783d1, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: 9c690660684b5494c88ac61e360783d1, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100008, guid: 9c690660684b5494c88ac61e360783d1, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100010, guid: 9c690660684b5494c88ac61e360783d1, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100012, guid: 9c690660684b5494c88ac61e360783d1, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100014, guid: 9c690660684b5494c88ac61e360783d1, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100016, guid: 9c690660684b5494c88ac61e360783d1, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100018, guid: 9c690660684b5494c88ac61e360783d1, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100020, guid: 9c690660684b5494c88ac61e360783d1, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100022, guid: 9c690660684b5494c88ac61e360783d1, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100024, guid: 9c690660684b5494c88ac61e360783d1, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100026, guid: 9c690660684b5494c88ac61e360783d1, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100028, guid: 9c690660684b5494c88ac61e360783d1, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100030, guid: 9c690660684b5494c88ac61e360783d1, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100032, guid: 9c690660684b5494c88ac61e360783d1, type: 3}
       propertyPath: m_Name
@@ -4750,35 +4750,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100032, guid: 9c690660684b5494c88ac61e360783d1, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100034, guid: 9c690660684b5494c88ac61e360783d1, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100036, guid: 9c690660684b5494c88ac61e360783d1, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100038, guid: 9c690660684b5494c88ac61e360783d1, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100040, guid: 9c690660684b5494c88ac61e360783d1, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100042, guid: 9c690660684b5494c88ac61e360783d1, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100044, guid: 9c690660684b5494c88ac61e360783d1, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100046, guid: 9c690660684b5494c88ac61e360783d1, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400032, guid: 9c690660684b5494c88ac61e360783d1, type: 3}
       propertyPath: m_RootOrder
@@ -5543,27 +5543,27 @@ PrefabInstance:
     - target: {fileID: 976749517787264400, guid: df3471ffc6081ad48a04e34d370d26b2,
         type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2033846354089667726, guid: df3471ffc6081ad48a04e34d370d26b2,
         type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3882976455060074321, guid: df3471ffc6081ad48a04e34d370d26b2,
         type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4743233702365073702, guid: df3471ffc6081ad48a04e34d370d26b2,
         type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6807194570139675777, guid: df3471ffc6081ad48a04e34d370d26b2,
         type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df3471ffc6081ad48a04e34d370d26b2, type: 3}
@@ -5932,27 +5932,27 @@ PrefabInstance:
     - target: {fileID: 976749517787264400, guid: df3471ffc6081ad48a04e34d370d26b2,
         type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2033846354089667726, guid: df3471ffc6081ad48a04e34d370d26b2,
         type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3882976455060074321, guid: df3471ffc6081ad48a04e34d370d26b2,
         type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4743233702365073702, guid: df3471ffc6081ad48a04e34d370d26b2,
         type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6807194570139675777, guid: df3471ffc6081ad48a04e34d370d26b2,
         type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df3471ffc6081ad48a04e34d370d26b2, type: 3}
@@ -6485,27 +6485,27 @@ PrefabInstance:
     - target: {fileID: 976749517787264400, guid: df3471ffc6081ad48a04e34d370d26b2,
         type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2033846354089667726, guid: df3471ffc6081ad48a04e34d370d26b2,
         type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3882976455060074321, guid: df3471ffc6081ad48a04e34d370d26b2,
         type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4743233702365073702, guid: df3471ffc6081ad48a04e34d370d26b2,
         type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6807194570139675777, guid: df3471ffc6081ad48a04e34d370d26b2,
         type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df3471ffc6081ad48a04e34d370d26b2, type: 3}
@@ -6898,7 +6898,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 550a4ecc8ef3569498cd036079166149, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 550a4ecc8ef3569498cd036079166149, type: 3}
       propertyPath: m_RootOrder
@@ -6970,6 +6970,60 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 550a4ecc8ef3569498cd036079166149, type: 3}
+--- !u!114 &354584863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 266653521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50fdd200f091e2d4ba704111fbf077e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &354584864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 266653521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04cecb91051d5634399b5114d7915421, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ScannerExit:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1276212164}
+        m_TargetAssemblyTypeName: AddInfraredLayer, Assembly-CSharp
+        m_MethodName: ResetLayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  ScannerEnter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1276212164}
+        m_TargetAssemblyTypeName: AddInfraredLayer, Assembly-CSharp
+        m_MethodName: SetInfraredLayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!4 &356250811 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4000011339693244, guid: f94554303b4f7094ea5e12fe79985529,
@@ -6995,7 +7049,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 978214a9b04de8344a1099ebe113b6b2, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 978214a9b04de8344a1099ebe113b6b2, type: 3}
       propertyPath: m_RootOrder
@@ -7194,7 +7248,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 400030873}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Objects Lighthouse infrared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7454,6 +7508,66 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75fa8bf3a73ee6b4da0c7a2c6d3db6a1, type: 3}
+--- !u!1 &441309515 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100002, guid: d3dfb551f587bf148b9902d66279308b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1023218990}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &441309517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 441309515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50fdd200f091e2d4ba704111fbf077e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &441309518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 441309515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04cecb91051d5634399b5114d7915421, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ScannerExit:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1276212164}
+        m_TargetAssemblyTypeName: AddInfraredLayer, Assembly-CSharp
+        m_MethodName: ResetLayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  ScannerEnter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1276212164}
+        m_TargetAssemblyTypeName: AddInfraredLayer, Assembly-CSharp
+        m_MethodName: SetInfraredLayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1001 &443590123
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8626,6 +8740,60 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 1598085ab955606498c4190e785e9cd6, type: 3}
+--- !u!114 &622364642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 404913983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50fdd200f091e2d4ba704111fbf077e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &622364643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 404913983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04cecb91051d5634399b5114d7915421, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ScannerExit:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1276212164}
+        m_TargetAssemblyTypeName: AddInfraredLayer, Assembly-CSharp
+        m_MethodName: ResetLayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  ScannerEnter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1276212164}
+        m_TargetAssemblyTypeName: AddInfraredLayer, Assembly-CSharp
+        m_MethodName: SetInfraredLayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1001 &632095248
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8651,7 +8819,7 @@ PrefabInstance:
     - target: {fileID: 4057665878677803417, guid: 62ac45af78a970e4a8bd1447a79b753f,
         type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4057665878677803417, guid: 62ac45af78a970e4a8bd1447a79b753f,
         type: 3}
@@ -8755,6 +8923,60 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 1598085ab955606498c4190e785e9cd6, type: 3}
+--- !u!114 &634382840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 144309332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50fdd200f091e2d4ba704111fbf077e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &634382841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 144309332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04cecb91051d5634399b5114d7915421, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ScannerExit:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1276212164}
+        m_TargetAssemblyTypeName: AddInfraredLayer, Assembly-CSharp
+        m_MethodName: ResetLayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  ScannerEnter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1276212164}
+        m_TargetAssemblyTypeName: AddInfraredLayer, Assembly-CSharp
+        m_MethodName: SetInfraredLayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &635740513 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6807194570139675777, guid: df3471ffc6081ad48a04e34d370d26b2,
@@ -9133,7 +9355,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 651697938}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Objects Grass infrared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9514,7 +9736,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 675380645}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Objects Beach infrared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9743,7 +9965,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: a19a9aa8b8240fe479daf001fa5a33d7, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a19a9aa8b8240fe479daf001fa5a33d7, type: 3}
       propertyPath: m_RootOrder
@@ -10166,6 +10388,66 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!1 &816377863 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 265ee6fac4cc17345b23403e90e2ba45,
+    type: 3}
+  m_PrefabInstance: {fileID: 1308016814}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &816377865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 816377863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50fdd200f091e2d4ba704111fbf077e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &816377866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 816377863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04cecb91051d5634399b5114d7915421, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ScannerExit:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1276212164}
+        m_TargetAssemblyTypeName: AddInfraredLayer, Assembly-CSharp
+        m_MethodName: ResetLayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  ScannerEnter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1276212164}
+        m_TargetAssemblyTypeName: AddInfraredLayer, Assembly-CSharp
+        m_MethodName: SetInfraredLayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!4 &817965463 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4000013308252972, guid: 75fa8bf3a73ee6b4da0c7a2c6d3db6a1,
@@ -10203,6 +10485,12 @@ Transform:
   m_Father: {fileID: 661029075}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &823345813 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100054, guid: 265ee6fac4cc17345b23403e90e2ba45,
+    type: 3}
+  m_PrefabInstance: {fileID: 1308016814}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &855499555 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4743233702365073702, guid: df3471ffc6081ad48a04e34d370d26b2,
@@ -10362,7 +10650,7 @@ PrefabInstance:
     - target: {fileID: -5394015755093658615, guid: 4b0b939db81a30a49941b2f068e3bd84,
         type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 4b0b939db81a30a49941b2f068e3bd84,
         type: 3}
@@ -10372,22 +10660,22 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 4b0b939db81a30a49941b2f068e3bd84,
         type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6750291736077323449, guid: 4b0b939db81a30a49941b2f068e3bd84,
         type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8531764720778583663, guid: 4b0b939db81a30a49941b2f068e3bd84,
         type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8847970204184528097, guid: 4b0b939db81a30a49941b2f068e3bd84,
         type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8928416181627729512, guid: 4b0b939db81a30a49941b2f068e3bd84,
         type: 3}
@@ -10522,27 +10810,27 @@ PrefabInstance:
     - target: {fileID: 976749517787264400, guid: df3471ffc6081ad48a04e34d370d26b2,
         type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2033846354089667726, guid: df3471ffc6081ad48a04e34d370d26b2,
         type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3882976455060074321, guid: df3471ffc6081ad48a04e34d370d26b2,
         type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4743233702365073702, guid: df3471ffc6081ad48a04e34d370d26b2,
         type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6807194570139675777, guid: df3471ffc6081ad48a04e34d370d26b2,
         type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df3471ffc6081ad48a04e34d370d26b2, type: 3}
@@ -11056,6 +11344,60 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 2534964839176971238, guid: b674e4fabe74edb49b71914d1735d6b1, type: 3}
+--- !u!114 &958734807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 958734801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50fdd200f091e2d4ba704111fbf077e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &958734808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 958734801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04cecb91051d5634399b5114d7915421, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ScannerExit:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1276212164}
+        m_TargetAssemblyTypeName: AddInfraredLayer, Assembly-CSharp
+        m_MethodName: ResetLayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  ScannerEnter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1276212164}
+        m_TargetAssemblyTypeName: AddInfraredLayer, Assembly-CSharp
+        m_MethodName: SetInfraredLayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &962497728 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100032, guid: 9c690660684b5494c88ac61e360783d1,
@@ -11767,6 +12109,60 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 978214a9b04de8344a1099ebe113b6b2, type: 3}
+--- !u!114 &1005354433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1005354427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50fdd200f091e2d4ba704111fbf077e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1005354434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1005354427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04cecb91051d5634399b5114d7915421, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ScannerExit:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1276212164}
+        m_TargetAssemblyTypeName: AddInfraredLayer, Assembly-CSharp
+        m_MethodName: ResetLayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  ScannerEnter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1276212164}
+        m_TargetAssemblyTypeName: AddInfraredLayer, Assembly-CSharp
+        m_MethodName: SetInfraredLayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1006047467 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6807194570139675777, guid: df3471ffc6081ad48a04e34d370d26b2,
@@ -11912,99 +12308,99 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100008, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100010, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100012, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100014, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100016, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100018, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100020, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100022, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100024, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100026, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100028, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100030, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100032, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100034, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100036, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100038, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100040, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100042, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100044, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100046, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100048, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Name
@@ -12012,23 +12408,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100048, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100050, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100052, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100054, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100056, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400048, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_RootOrder
@@ -12149,7 +12545,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 978214a9b04de8344a1099ebe113b6b2, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 978214a9b04de8344a1099ebe113b6b2, type: 3}
       propertyPath: m_RootOrder
@@ -12224,99 +12620,99 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100008, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100010, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100012, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100014, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100016, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100018, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100020, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100022, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100024, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100026, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100028, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100030, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100032, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100034, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100036, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100038, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100040, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100042, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100044, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100046, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100048, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Name
@@ -12324,23 +12720,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100048, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100050, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100052, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100054, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100056, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400048, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_RootOrder
@@ -12408,6 +12804,60 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!114 &1023218995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 246278465}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50fdd200f091e2d4ba704111fbf077e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1023218996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 246278465}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04cecb91051d5634399b5114d7915421, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ScannerExit:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1276212164}
+        m_TargetAssemblyTypeName: AddInfraredLayer, Assembly-CSharp
+        m_MethodName: ResetLayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  ScannerEnter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1276212164}
+        m_TargetAssemblyTypeName: AddInfraredLayer, Assembly-CSharp
+        m_MethodName: SetInfraredLayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!4 &1023981210 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4000013308252972, guid: 75fa8bf3a73ee6b4da0c7a2c6d3db6a1,
@@ -13524,6 +13974,12 @@ Transform:
   m_Father: {fileID: 1072926309}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1088495930 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100048, guid: d3dfb551f587bf148b9902d66279308b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1923283693}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1092792439
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13537,7 +13993,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 550a4ecc8ef3569498cd036079166149, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 550a4ecc8ef3569498cd036079166149, type: 3}
       propertyPath: m_RootOrder
@@ -13605,6 +14061,60 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 550a4ecc8ef3569498cd036079166149, type: 3}
+--- !u!114 &1092792446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9284224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50fdd200f091e2d4ba704111fbf077e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1092792447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9284224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04cecb91051d5634399b5114d7915421, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ScannerExit:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1276212164}
+        m_TargetAssemblyTypeName: AddInfraredLayer, Assembly-CSharp
+        m_MethodName: ResetLayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  ScannerEnter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1276212164}
+        m_TargetAssemblyTypeName: AddInfraredLayer, Assembly-CSharp
+        m_MethodName: SetInfraredLayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1115287697
 GameObject:
   m_ObjectHideFlags: 0
@@ -13742,47 +14252,47 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 3a20fa05dc74f114bb237c4dba333092, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 3a20fa05dc74f114bb237c4dba333092, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 3a20fa05dc74f114bb237c4dba333092, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: 3a20fa05dc74f114bb237c4dba333092, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100008, guid: 3a20fa05dc74f114bb237c4dba333092, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100010, guid: 3a20fa05dc74f114bb237c4dba333092, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100012, guid: 3a20fa05dc74f114bb237c4dba333092, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100014, guid: 3a20fa05dc74f114bb237c4dba333092, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100016, guid: 3a20fa05dc74f114bb237c4dba333092, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100018, guid: 3a20fa05dc74f114bb237c4dba333092, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100020, guid: 3a20fa05dc74f114bb237c4dba333092, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100022, guid: 3a20fa05dc74f114bb237c4dba333092, type: 3}
       propertyPath: m_Name
@@ -13790,7 +14300,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100022, guid: 3a20fa05dc74f114bb237c4dba333092, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400022, guid: 3a20fa05dc74f114bb237c4dba333092, type: 3}
       propertyPath: m_RootOrder
@@ -13881,7 +14391,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1137238040}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Objects Front L infrared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14222,7 +14732,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: abe2d5d82aa6b0a44a7170f0f5d9b0f3, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: abe2d5d82aa6b0a44a7170f0f5d9b0f3, type: 3}
       propertyPath: m_RootOrder
@@ -14290,6 +14800,60 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: abe2d5d82aa6b0a44a7170f0f5d9b0f3, type: 3}
+--- !u!114 &1186223265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 575212909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50fdd200f091e2d4ba704111fbf077e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1186223266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 575212909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04cecb91051d5634399b5114d7915421, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ScannerExit:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1276212164}
+        m_TargetAssemblyTypeName: AddInfraredLayer, Assembly-CSharp
+        m_MethodName: ResetLayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  ScannerEnter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1276212164}
+        m_TargetAssemblyTypeName: AddInfraredLayer, Assembly-CSharp
+        m_MethodName: SetInfraredLayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1001 &1197507081
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14507,6 +15071,66 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1574715310}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1276212162 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100002, guid: d3dfb551f587bf148b9902d66279308b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1923283693}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1276212164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1276212162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50fdd200f091e2d4ba704111fbf077e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1276212165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1276212162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04cecb91051d5634399b5114d7915421, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ScannerExit:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1276212164}
+        m_TargetAssemblyTypeName: AddInfraredLayer, Assembly-CSharp
+        m_MethodName: ResetLayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  ScannerEnter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1276212164}
+        m_TargetAssemblyTypeName: AddInfraredLayer, Assembly-CSharp
+        m_MethodName: SetInfraredLayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!4 &1278409422 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4000013308252972, guid: 75fa8bf3a73ee6b4da0c7a2c6d3db6a1,
@@ -15307,111 +15931,111 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 265ee6fac4cc17345b23403e90e2ba45, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 265ee6fac4cc17345b23403e90e2ba45, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 265ee6fac4cc17345b23403e90e2ba45, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: 265ee6fac4cc17345b23403e90e2ba45, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100008, guid: 265ee6fac4cc17345b23403e90e2ba45, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100010, guid: 265ee6fac4cc17345b23403e90e2ba45, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100012, guid: 265ee6fac4cc17345b23403e90e2ba45, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100014, guid: 265ee6fac4cc17345b23403e90e2ba45, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100016, guid: 265ee6fac4cc17345b23403e90e2ba45, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100018, guid: 265ee6fac4cc17345b23403e90e2ba45, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100020, guid: 265ee6fac4cc17345b23403e90e2ba45, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100022, guid: 265ee6fac4cc17345b23403e90e2ba45, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100024, guid: 265ee6fac4cc17345b23403e90e2ba45, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100026, guid: 265ee6fac4cc17345b23403e90e2ba45, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100028, guid: 265ee6fac4cc17345b23403e90e2ba45, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100030, guid: 265ee6fac4cc17345b23403e90e2ba45, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100032, guid: 265ee6fac4cc17345b23403e90e2ba45, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100034, guid: 265ee6fac4cc17345b23403e90e2ba45, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100036, guid: 265ee6fac4cc17345b23403e90e2ba45, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100038, guid: 265ee6fac4cc17345b23403e90e2ba45, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100040, guid: 265ee6fac4cc17345b23403e90e2ba45, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100042, guid: 265ee6fac4cc17345b23403e90e2ba45, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100044, guid: 265ee6fac4cc17345b23403e90e2ba45, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100046, guid: 265ee6fac4cc17345b23403e90e2ba45, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100048, guid: 265ee6fac4cc17345b23403e90e2ba45, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100050, guid: 265ee6fac4cc17345b23403e90e2ba45, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100052, guid: 265ee6fac4cc17345b23403e90e2ba45, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100054, guid: 265ee6fac4cc17345b23403e90e2ba45, type: 3}
       propertyPath: m_Name
@@ -15419,63 +16043,63 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100054, guid: 265ee6fac4cc17345b23403e90e2ba45, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100056, guid: 265ee6fac4cc17345b23403e90e2ba45, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100058, guid: 265ee6fac4cc17345b23403e90e2ba45, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100060, guid: 265ee6fac4cc17345b23403e90e2ba45, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100062, guid: 265ee6fac4cc17345b23403e90e2ba45, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100064, guid: 265ee6fac4cc17345b23403e90e2ba45, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100066, guid: 265ee6fac4cc17345b23403e90e2ba45, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100068, guid: 265ee6fac4cc17345b23403e90e2ba45, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100070, guid: 265ee6fac4cc17345b23403e90e2ba45, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100072, guid: 265ee6fac4cc17345b23403e90e2ba45, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100074, guid: 265ee6fac4cc17345b23403e90e2ba45, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100076, guid: 265ee6fac4cc17345b23403e90e2ba45, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100078, guid: 265ee6fac4cc17345b23403e90e2ba45, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100080, guid: 265ee6fac4cc17345b23403e90e2ba45, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100082, guid: 265ee6fac4cc17345b23403e90e2ba45, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400054, guid: 265ee6fac4cc17345b23403e90e2ba45, type: 3}
       propertyPath: m_RootOrder
@@ -15545,6 +16169,60 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1308016814}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1308016817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 823345813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50fdd200f091e2d4ba704111fbf077e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1308016818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 823345813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04cecb91051d5634399b5114d7915421, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ScannerExit:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1276212164}
+        m_TargetAssemblyTypeName: AddInfraredLayer, Assembly-CSharp
+        m_MethodName: ResetLayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  ScannerEnter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1276212164}
+        m_TargetAssemblyTypeName: AddInfraredLayer, Assembly-CSharp
+        m_MethodName: SetInfraredLayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1315228815
 GameObject:
   m_ObjectHideFlags: 0
@@ -15623,7 +16301,7 @@ GameObject:
   - component: {fileID: 1322785088}
   - component: {fileID: 1322785089}
   - component: {fileID: 1322785090}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Objects infrared
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16441,67 +17119,67 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 9c690660684b5494c88ac61e360783d1, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 9c690660684b5494c88ac61e360783d1, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 9c690660684b5494c88ac61e360783d1, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: 9c690660684b5494c88ac61e360783d1, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100008, guid: 9c690660684b5494c88ac61e360783d1, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100010, guid: 9c690660684b5494c88ac61e360783d1, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100012, guid: 9c690660684b5494c88ac61e360783d1, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100014, guid: 9c690660684b5494c88ac61e360783d1, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100016, guid: 9c690660684b5494c88ac61e360783d1, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100018, guid: 9c690660684b5494c88ac61e360783d1, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100020, guid: 9c690660684b5494c88ac61e360783d1, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100022, guid: 9c690660684b5494c88ac61e360783d1, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100024, guid: 9c690660684b5494c88ac61e360783d1, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100026, guid: 9c690660684b5494c88ac61e360783d1, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100028, guid: 9c690660684b5494c88ac61e360783d1, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100030, guid: 9c690660684b5494c88ac61e360783d1, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100032, guid: 9c690660684b5494c88ac61e360783d1, type: 3}
       propertyPath: m_Name
@@ -16509,35 +17187,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100032, guid: 9c690660684b5494c88ac61e360783d1, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100034, guid: 9c690660684b5494c88ac61e360783d1, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100036, guid: 9c690660684b5494c88ac61e360783d1, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100038, guid: 9c690660684b5494c88ac61e360783d1, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100040, guid: 9c690660684b5494c88ac61e360783d1, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100042, guid: 9c690660684b5494c88ac61e360783d1, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100044, guid: 9c690660684b5494c88ac61e360783d1, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100046, guid: 9c690660684b5494c88ac61e360783d1, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400032, guid: 9c690660684b5494c88ac61e360783d1, type: 3}
       propertyPath: m_RootOrder
@@ -17326,7 +18004,7 @@ PrefabInstance:
     - target: {fileID: 4057665878677803417, guid: 62ac45af78a970e4a8bd1447a79b753f,
         type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4057665878677803417, guid: 62ac45af78a970e4a8bd1447a79b753f,
         type: 3}
@@ -17975,6 +18653,60 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 978214a9b04de8344a1099ebe113b6b2, type: 3}
+--- !u!114 &1636543543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1636543537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50fdd200f091e2d4ba704111fbf077e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1636543544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1636543537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04cecb91051d5634399b5114d7915421, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ScannerExit:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1276212164}
+        m_TargetAssemblyTypeName: AddInfraredLayer, Assembly-CSharp
+        m_MethodName: ResetLayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  ScannerEnter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1276212164}
+        m_TargetAssemblyTypeName: AddInfraredLayer, Assembly-CSharp
+        m_MethodName: SetInfraredLayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1636849559
 GameObject:
   m_ObjectHideFlags: 0
@@ -23026,7 +23758,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1655860290}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Group107
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23173,27 +23905,27 @@ PrefabInstance:
     - target: {fileID: 976749517787264400, guid: df3471ffc6081ad48a04e34d370d26b2,
         type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2033846354089667726, guid: df3471ffc6081ad48a04e34d370d26b2,
         type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3882976455060074321, guid: df3471ffc6081ad48a04e34d370d26b2,
         type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4743233702365073702, guid: df3471ffc6081ad48a04e34d370d26b2,
         type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6807194570139675777, guid: df3471ffc6081ad48a04e34d370d26b2,
         type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df3471ffc6081ad48a04e34d370d26b2, type: 3}
@@ -23637,6 +24369,60 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: a19a9aa8b8240fe479daf001fa5a33d7, type: 3}
+--- !u!114 &1697416450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1697416444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50fdd200f091e2d4ba704111fbf077e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1697416451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1697416444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04cecb91051d5634399b5114d7915421, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ScannerExit:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1276212164}
+        m_TargetAssemblyTypeName: AddInfraredLayer, Assembly-CSharp
+        m_MethodName: ResetLayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  ScannerEnter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1276212164}
+        m_TargetAssemblyTypeName: AddInfraredLayer, Assembly-CSharp
+        m_MethodName: SetInfraredLayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1001 &1699816076
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23657,7 +24443,7 @@ PrefabInstance:
     - target: {fileID: 4057665878677803417, guid: 62ac45af78a970e4a8bd1447a79b753f,
         type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4057665878677803417, guid: 62ac45af78a970e4a8bd1447a79b753f,
         type: 3}
@@ -24506,7 +25292,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: d152fbd46e97942458c57951d5730dec, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d152fbd46e97942458c57951d5730dec, type: 3}
       propertyPath: m_RootOrder
@@ -24574,6 +25360,120 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: d152fbd46e97942458c57951d5730dec, type: 3}
+--- !u!114 &1787932366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1717325803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50fdd200f091e2d4ba704111fbf077e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1787932367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1717325803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04cecb91051d5634399b5114d7915421, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ScannerExit:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1276212164}
+        m_TargetAssemblyTypeName: AddInfraredLayer, Assembly-CSharp
+        m_MethodName: ResetLayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  ScannerEnter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1276212164}
+        m_TargetAssemblyTypeName: AddInfraredLayer, Assembly-CSharp
+        m_MethodName: SetInfraredLayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!1 &1790698486 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100022, guid: 3a20fa05dc74f114bb237c4dba333092,
+    type: 3}
+  m_PrefabInstance: {fileID: 1118034706}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1790698488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790698486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50fdd200f091e2d4ba704111fbf077e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1790698489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790698486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04cecb91051d5634399b5114d7915421, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ScannerExit:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1276212164}
+        m_TargetAssemblyTypeName: AddInfraredLayer, Assembly-CSharp
+        m_MethodName: ResetLayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  ScannerEnter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1276212164}
+        m_TargetAssemblyTypeName: AddInfraredLayer, Assembly-CSharp
+        m_MethodName: SetInfraredLayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1792312322 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1990127925328773773, guid: cab5ea3df44bd244ab0e19914d5a51f8,
@@ -24734,6 +25634,60 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!114 &1814546402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1814546396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50fdd200f091e2d4ba704111fbf077e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1814546403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1814546396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04cecb91051d5634399b5114d7915421, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ScannerExit:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1276212164}
+        m_TargetAssemblyTypeName: AddInfraredLayer, Assembly-CSharp
+        m_MethodName: ResetLayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  ScannerEnter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1276212164}
+        m_TargetAssemblyTypeName: AddInfraredLayer, Assembly-CSharp
+        m_MethodName: SetInfraredLayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1829141655
 GameObject:
   m_ObjectHideFlags: 0
@@ -24765,6 +25719,66 @@ Transform:
   m_Father: {fileID: 661029075}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1835858449 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 3a20fa05dc74f114bb237c4dba333092,
+    type: 3}
+  m_PrefabInstance: {fileID: 1118034706}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1835858451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1835858449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50fdd200f091e2d4ba704111fbf077e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1835858452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1835858449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04cecb91051d5634399b5114d7915421, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ScannerExit:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1276212164}
+        m_TargetAssemblyTypeName: AddInfraredLayer, Assembly-CSharp
+        m_MethodName: ResetLayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  ScannerEnter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1276212164}
+        m_TargetAssemblyTypeName: AddInfraredLayer, Assembly-CSharp
+        m_MethodName: SetInfraredLayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1001 &1836357727
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25265,27 +26279,27 @@ PrefabInstance:
     - target: {fileID: 976749517787264400, guid: df3471ffc6081ad48a04e34d370d26b2,
         type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2033846354089667726, guid: df3471ffc6081ad48a04e34d370d26b2,
         type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3882976455060074321, guid: df3471ffc6081ad48a04e34d370d26b2,
         type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4743233702365073702, guid: df3471ffc6081ad48a04e34d370d26b2,
         type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6807194570139675777, guid: df3471ffc6081ad48a04e34d370d26b2,
         type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df3471ffc6081ad48a04e34d370d26b2, type: 3}
@@ -25730,99 +26744,99 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100008, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100010, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100012, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100014, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100016, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100018, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100020, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100022, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100024, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100026, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100028, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100030, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100032, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100034, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100036, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100038, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100040, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100042, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100044, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100046, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100048, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Name
@@ -25830,23 +26844,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100048, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100050, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100052, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100054, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100056, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400048, guid: d3dfb551f587bf148b9902d66279308b, type: 3}
       propertyPath: m_RootOrder
@@ -25904,6 +26918,60 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1923283693}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1923283696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1088495930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50fdd200f091e2d4ba704111fbf077e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1923283697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1088495930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04cecb91051d5634399b5114d7915421, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ScannerExit:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1276212164}
+        m_TargetAssemblyTypeName: AddInfraredLayer, Assembly-CSharp
+        m_MethodName: ResetLayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  ScannerEnter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1276212164}
+        m_TargetAssemblyTypeName: AddInfraredLayer, Assembly-CSharp
+        m_MethodName: SetInfraredLayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1923899294
 GameObject:
   m_ObjectHideFlags: 0
@@ -26613,27 +27681,27 @@ PrefabInstance:
     - target: {fileID: 976749517787264400, guid: df3471ffc6081ad48a04e34d370d26b2,
         type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2033846354089667726, guid: df3471ffc6081ad48a04e34d370d26b2,
         type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3882976455060074321, guid: df3471ffc6081ad48a04e34d370d26b2,
         type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4743233702365073702, guid: df3471ffc6081ad48a04e34d370d26b2,
         type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6807194570139675777, guid: df3471ffc6081ad48a04e34d370d26b2,
         type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df3471ffc6081ad48a04e34d370d26b2, type: 3}
@@ -26657,6 +27725,60 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 1598085ab955606498c4190e785e9cd6, type: 3}
+--- !u!114 &1980604742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1980604734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50fdd200f091e2d4ba704111fbf077e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1980604743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1980604734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04cecb91051d5634399b5114d7915421, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ScannerExit:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1276212164}
+        m_TargetAssemblyTypeName: AddInfraredLayer, Assembly-CSharp
+        m_MethodName: ResetLayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  ScannerEnter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1276212164}
+        m_TargetAssemblyTypeName: AddInfraredLayer, Assembly-CSharp
+        m_MethodName: SetInfraredLayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1982123159 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 976749517787264400, guid: df3471ffc6081ad48a04e34d370d26b2,
@@ -26737,6 +27859,60 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 1598085ab955606498c4190e785e9cd6, type: 3}
+--- !u!114 &1991966418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1991966410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50fdd200f091e2d4ba704111fbf077e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1991966419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1991966410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04cecb91051d5634399b5114d7915421, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ScannerExit:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1276212164}
+        m_TargetAssemblyTypeName: AddInfraredLayer, Assembly-CSharp
+        m_MethodName: ResetLayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  ScannerEnter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1276212164}
+        m_TargetAssemblyTypeName: AddInfraredLayer, Assembly-CSharp
+        m_MethodName: SetInfraredLayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!4 &1998714871 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4b0b939db81a30a49941b2f068e3bd84,
@@ -26755,7 +27931,9 @@ GameObject:
   - component: {fileID: 2011982076}
   - component: {fileID: 2011982075}
   - component: {fileID: 2011982074}
-  m_Layer: 6
+  - component: {fileID: 2011982078}
+  - component: {fileID: 2011982077}
+  m_Layer: 0
   m_Name: Mesh157
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26841,6 +28019,60 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2011982071}
   m_Mesh: {fileID: 7315484823027161132, guid: 550c437082721aa42ac3fc3d4aa8af6f, type: 3}
+--- !u!114 &2011982077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2011982071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50fdd200f091e2d4ba704111fbf077e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2011982078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2011982071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04cecb91051d5634399b5114d7915421, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ScannerExit:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1276212164}
+        m_TargetAssemblyTypeName: AddInfraredLayer, Assembly-CSharp
+        m_MethodName: ResetLayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  ScannerEnter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1276212164}
+        m_TargetAssemblyTypeName: AddInfraredLayer, Assembly-CSharp
+        m_MethodName: SetInfraredLayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1001 &2013209192
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26971,6 +28203,66 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2013209192}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2036321219 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: d3dfb551f587bf148b9902d66279308b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1023218990}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2036321222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2036321219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50fdd200f091e2d4ba704111fbf077e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2036321223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2036321219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04cecb91051d5634399b5114d7915421, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ScannerExit:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1276212164}
+        m_TargetAssemblyTypeName: AddInfraredLayer, Assembly-CSharp
+        m_MethodName: ResetLayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  ScannerEnter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1276212164}
+        m_TargetAssemblyTypeName: AddInfraredLayer, Assembly-CSharp
+        m_MethodName: SetInfraredLayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2059296199 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1913416039027773446, guid: c5de7d80c0c8dda4faaf205e59f88310,
@@ -27060,6 +28352,60 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!114 &2084259452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084259446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50fdd200f091e2d4ba704111fbf077e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2084259453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084259446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04cecb91051d5634399b5114d7915421, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ScannerExit:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1276212164}
+        m_TargetAssemblyTypeName: AddInfraredLayer, Assembly-CSharp
+        m_MethodName: ResetLayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  ScannerEnter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1276212164}
+        m_TargetAssemblyTypeName: AddInfraredLayer, Assembly-CSharp
+        m_MethodName: SetInfraredLayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2096404927 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2033846354089667726, guid: df3471ffc6081ad48a04e34d370d26b2,
@@ -27154,6 +28500,60 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!114 &2097398951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2097398945}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50fdd200f091e2d4ba704111fbf077e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2097398952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2097398945}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04cecb91051d5634399b5114d7915421, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ScannerExit:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1276212164}
+        m_TargetAssemblyTypeName: AddInfraredLayer, Assembly-CSharp
+        m_MethodName: ResetLayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  ScannerEnter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1276212164}
+        m_TargetAssemblyTypeName: AddInfraredLayer, Assembly-CSharp
+        m_MethodName: SetInfraredLayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2104707730 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5683711428169359788, guid: c5de7d80c0c8dda4faaf205e59f88310,
@@ -27187,7 +28587,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: a19a9aa8b8240fe479daf001fa5a33d7, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a19a9aa8b8240fe479daf001fa5a33d7, type: 3}
       propertyPath: m_RootOrder
@@ -27369,7 +28769,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: a19a9aa8b8240fe479daf001fa5a33d7, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a19a9aa8b8240fe479daf001fa5a33d7, type: 3}
       propertyPath: m_RootOrder
@@ -27621,7 +29021,7 @@ PrefabInstance:
     - target: {fileID: 4057665878677803417, guid: 62ac45af78a970e4a8bd1447a79b753f,
         type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4057665878677803417, guid: 62ac45af78a970e4a8bd1447a79b753f,
         type: 3}
