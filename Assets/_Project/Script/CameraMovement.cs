@@ -50,6 +50,7 @@ public class CameraMovement : MonoBehaviour
             transform.GetChild(11).gameObject.SetActive(!transform.GetChild(11).gameObject.activeSelf);
             transform.GetChild(12).gameObject.SetActive(!transform.GetChild(12).gameObject.activeSelf);
             transform.GetChild(13).gameObject.SetActive(!transform.GetChild(13).gameObject.activeSelf);
+            transform.GetChild(14).gameObject.SetActive(!transform.GetChild(14).gameObject.activeSelf);
         }
 
         if (Input.GetKeyDown(KeyCode.Space) && target == null)
@@ -239,6 +240,8 @@ public class CameraMovement : MonoBehaviour
         fade.ToggleFade();
     }
 }
+
+    
 
 [System.Serializable]
 public struct Route
