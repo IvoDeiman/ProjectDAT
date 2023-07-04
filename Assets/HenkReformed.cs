@@ -20,6 +20,7 @@ public class HenkReformed : MonoBehaviour
     public Light directionalLight;
     public float minIntensity = 0f;
     public float maxIntensity = 1.5f;
+    public bool isInfraredOn = false;
 
     //public GameObject infraObject;
     LayerMask layer;
@@ -36,6 +37,9 @@ public class HenkReformed : MonoBehaviour
         directionalLight.intensity = maxIntensity;
 
         sp.ReadTimeout = 25;
+
+        EnableInfrared();
+        DisableInfrared();
     }
 
     private void InterpretInput(int input)
@@ -110,23 +114,27 @@ public class HenkReformed : MonoBehaviour
     void DisableInfrared()
     {
         directionalLight.intensity = minIntensity;
-
+        isInfraredOn = false;
+        /*
         int LayerNum = 0;
         layer = LayerNum;
 
         if (transform.childCount > 0)
             SetLayerAllChildren(transform, LayerNum);
+        */
     }
 
     void EnableInfrared()
     {
         directionalLight.intensity = maxIntensity;
-
+        isInfraredOn = true;
+        /*
         int LayerNum = 6;
         layer = LayerNum;
 
         if (transform.childCount > 0)
             SetLayerAllChildren(transform, LayerNum);
+        */
     }
 
     void SetLayerAllChildren(Transform root, int layer)

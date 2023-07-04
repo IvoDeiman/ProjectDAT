@@ -9,7 +9,11 @@ public class AddInfraredLayer : MonoBehaviour
     public void SetInfraredLayer() {
         // Set layer to RenderAbove (6), which is the infrared layer
         // To do: change light? and reset in ResetLayer()
-        gameObject.layer = 6;
+        
+        if (transform.root.GetComponent<HenkReformed>().isInfraredOn == true) {
+            gameObject.layer = 6;
+
+        }
     }
 
     public void ResetLayer() {
