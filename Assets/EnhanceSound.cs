@@ -17,19 +17,24 @@ public class EnhanceSound : MonoBehaviour
 
     public void EnhanceAudioVolume()
     {
+        _audio.volume = loud;
+        /* fuck the lerp -nico
         if (_audio.volume >= loud - threshold) return;
 
-        _audio.volume = Mathf.Lerp(_audio.volume, loud, 1f * Time.deltaTime);
+        _audio.volume = Mathf.Lerp(_audio.volume, loud, 1f * Time.deltaTime);*/
     }
 
     public void NormalizeAudioVolume()
     {
+        _audio.volume = normal;
+        /* Fuck the lerp -ivo
         if (_audio.volume == normal) return;
 
         if (_audio.volume <= normal + threshold)
             _audio.volume = normal;
 
         _audio.volume = Mathf.Lerp(_audio.volume, normal, 1f * Time.deltaTime);
+        */
     }
 
 }
