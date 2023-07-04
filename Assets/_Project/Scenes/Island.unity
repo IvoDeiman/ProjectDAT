@@ -9685,7 +9685,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d69738580dfd765468492eca2afbf1f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loud: 0.2
+  loud: 0.35
   normal: 0
 --- !u!1001 &668212834
 PrefabInstance:
@@ -13530,8 +13530,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d69738580dfd765468492eca2afbf1f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loud: 0.8
-  normal: 0.25
+  loud: 0.7
+  normal: 0.175
 --- !u!114 &1046724257
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15672,20 +15672,40 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1217282053621783282, guid: 193032a8102d39644bb1c9d2e9e9b2c0,
+        type: 3}
+      propertyPath: field of view
+      value: 67
+      objectReference: {fileID: 0}
     - target: {fileID: 1217282053621783283, guid: 193032a8102d39644bb1c9d2e9e9b2c0,
         type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1217282053687256132, guid: 193032a8102d39644bb1c9d2e9e9b2c0,
+        type: 3}
+      propertyPath: field of view
+      value: 67
       objectReference: {fileID: 0}
     - target: {fileID: 1217282053687256133, guid: 193032a8102d39644bb1c9d2e9e9b2c0,
         type: 3}
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1217282054632512599, guid: 193032a8102d39644bb1c9d2e9e9b2c0,
+        type: 3}
+      propertyPath: field of view
+      value: 67
+      objectReference: {fileID: 0}
     - target: {fileID: 1217282054632512616, guid: 193032a8102d39644bb1c9d2e9e9b2c0,
         type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1217282055417279486, guid: 193032a8102d39644bb1c9d2e9e9b2c0,
+        type: 3}
+      propertyPath: field of view
+      value: 67
       objectReference: {fileID: 0}
     - target: {fileID: 1217282055417279487, guid: 193032a8102d39644bb1c9d2e9e9b2c0,
         type: 3}
@@ -15995,7 +16015,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 0.75
+  m_Volume: 0.9
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -16824,7 +16844,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d69738580dfd765468492eca2afbf1f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loud: 0.1
+  loud: 0.25
   normal: 0
 --- !u!1 &1363169455 stripped
 GameObject:
