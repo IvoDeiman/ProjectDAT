@@ -24,7 +24,10 @@ public class EnhanceSound : MonoBehaviour
 
     public void NormalizeAudioVolume()
     {
-        if (_audio.volume <= normal + threshold) return;
+        if (_audio.volume == normal) return;
+
+        if (_audio.volume <= normal + threshold)
+            _audio.volume = normal;
 
         _audio.volume = Mathf.Lerp(_audio.volume, normal, 1f * Time.deltaTime);
     }
