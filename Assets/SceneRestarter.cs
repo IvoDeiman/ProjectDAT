@@ -10,9 +10,9 @@ public class SceneRestarter : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Tilde))
+        if (Input.GetKeyDown(KeyCode.R))
         {
-            SceneManager.LoadSceneAsync(scene);
+            SceneManager.LoadScene(scene);
         }
     }
 }
