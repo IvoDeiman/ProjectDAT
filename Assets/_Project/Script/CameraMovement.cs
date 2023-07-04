@@ -3,6 +3,7 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.Audio;
+using TMPro;
 
 public class CameraMovement : MonoBehaviour
 {
@@ -22,6 +23,9 @@ public class CameraMovement : MonoBehaviour
     [Header("Routes (A ROUTE MUST HAVE 4 NODES)")]
     [SerializeField] private Route[] routes;
 
+    public Camera[] cameras;
+    public TextMeshPro[] texts;
+    public int counter = 0;
 
     // Private Variables.
     private int routeTracker, pointCounter = 0;
@@ -45,6 +49,28 @@ public class CameraMovement : MonoBehaviour
 
     private void Update()
     {
+
+        if (Input.GetKeyDown(KeyCode.W)) {
+            counter++;
+            if (counter > 3) {
+                counter = 0;
+            }
+        }
+        if (Input.GetKeyDown(KeyCode.S)) {
+            counter--;
+            if (counter < 0) {
+                counter = 3;
+            }
+        }
+        if (Input.GetKeyDown(KeyCode.A)) {
+            cameras[counter].fieldOfView -= 1;
+            texts[counter].text = cameras[counter].name + cameras[counter].fieldOfView.ToString();
+        }
+        if (Input.GetKeyDown(KeyCode.D)) {
+            cameras[counter].fieldOfView += 1;
+            texts[counter].text = cameras[counter].name +  cameras[counter].fieldOfView.ToString();
+        }
+
         if (Input.GetKeyDown(KeyCode.U)) {
             transform.GetChild(10).gameObject.SetActive(!transform.GetChild(10).gameObject.activeSelf);
             transform.GetChild(11).gameObject.SetActive(!transform.GetChild(11).gameObject.activeSelf);

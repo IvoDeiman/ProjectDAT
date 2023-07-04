@@ -90,6 +90,12 @@ public class HenkReformed : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.I)) {
+            EnableInfrared();
+        }
+        if (Input.GetKeyUp(KeyCode.I)) {
+            DisableInfrared();
+        }
         if (sp.IsOpen)
         {
             try
