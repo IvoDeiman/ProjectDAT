@@ -56,7 +56,7 @@ Material:
     - _CastShadows: 1
     - _Cull: 2
     - _DstBlend: 1
-    - _FresnelPower: 1.5
+    - _FresnelPower: 0.5
     - _NoiseAmount: 0.199
     - _NoisePower: 3
     - _NoiseScale: 10
@@ -68,7 +68,7 @@ Material:
     - _ZWrite: 0
     - _ZWriteControl: 0
     m_Colors:
-    - _Color: {r: 1, g: 0, b: 0, a: 1}
+    - _Color: {r: 4.594794, g: 0, b: 0, a: 1}
     - _NoiseSpeed: {r: 0, g: -5, b: 0, a: 0}
     - _NoiseTiling: {r: 0.5, g: 30, b: 0, a: 0}
   m_BuildTextureStacks: []
