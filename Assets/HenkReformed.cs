@@ -50,7 +50,7 @@ public class HenkReformed : MonoBehaviour
                     fireflies[i].SetActive(false);
                 }
                 break;
-            case 1:
+            case 2:
                 focusedHearing.SetActive(false);
                 DisableInfrared();
                 dangerAwareness.SetActive(true);
@@ -58,7 +58,7 @@ public class HenkReformed : MonoBehaviour
                     fireflies[i].SetActive(true);
                 }
                 break;
-            case 2:
+            case 3:
                 focusedHearing.SetActive(false);
                 dangerAwareness.SetActive(false);
                 EnableInfrared();
@@ -66,7 +66,7 @@ public class HenkReformed : MonoBehaviour
                     fireflies[i].SetActive(false);
                 }
                 break;
-            case 3:
+            case 1:
                 dangerAwareness.SetActive(false);
                 DisableInfrared();
                 focusedHearing.SetActive(true);
