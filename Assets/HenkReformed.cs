@@ -53,6 +53,7 @@ public class HenkReformed : MonoBehaviour
                 for (int i = 0; i < 3; i++) {
                     fireflies[i].SetActive(false);
                 }
+                focusedHearing.Progressable(false);
                 break;
             case 1:
                 focusedHearing.SetActive(false);
@@ -61,6 +62,7 @@ public class HenkReformed : MonoBehaviour
                 for (int i = 0; i < 3; i++) {
                     fireflies[i].SetActive(true);
                 }
+                focusedHearing.Progressable(true);
                 break;
             case 2:
                 focusedHearing.SetActive(false);
@@ -69,6 +71,7 @@ public class HenkReformed : MonoBehaviour
                 for (int i = 0; i < 3; i++) {
                     fireflies[i].SetActive(false);
                 }
+                focusedHearing.Progressable(false);
                 break;
             case 3:
                 dangerAwareness.SetActive(false);
@@ -77,6 +80,7 @@ public class HenkReformed : MonoBehaviour
                 for (int i = 0; i < 3; i++) {
                     fireflies[i].SetActive(false);
                 }
+                focusedHearing.Progressable(false);
                 break;
             default:
                 throw new Exception("Input outside of expected range (0-3).");
@@ -115,26 +119,26 @@ public class HenkReformed : MonoBehaviour
     {
         directionalLight.intensity = maxIntensity;
         isInfraredOn = false;
-        /*
+        
         int LayerNum = 0;
         layer = LayerNum;
 
         if (transform.childCount > 0)
             SetLayerAllChildren(transform, LayerNum);
-        */
+        
     }
 
     void EnableInfrared()
     {
         directionalLight.intensity = minIntensity;
         isInfraredOn = true;
-        /*
+        
         int LayerNum = 6;
         layer = LayerNum;
 
         if (transform.childCount > 0)
             SetLayerAllChildren(transform, LayerNum);
-        */
+        
     }
 
     void SetLayerAllChildren(Transform root, int layer)

@@ -30,7 +30,6 @@ public class ProgressLogic : MonoBehaviour
         yield return new WaitForSeconds(timeToStartProgression);
         print("Done progressing, should start walking now");
         isProgressing = false;
-        //TODO: start walking
         willMove = player.StartMoving();
         // using willmove to make sure player will actually start moving. to ensure progression cylinder doesnt disable before route is finished
         if (followUpProgressionCylinder != null && willMove == true) {

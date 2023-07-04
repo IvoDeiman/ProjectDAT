@@ -14,6 +14,7 @@ public class AudioChecker : MonoBehaviour
     // It should have Target data, allowing is to invoke without constant GetComponent Usage.
     private List<Target> scannedTargets = new List<Target>();
     private bool isActive;
+    private bool canProgress;
 
     private void Update()
     {
@@ -43,7 +44,7 @@ public class AudioChecker : MonoBehaviour
 
         //When button is pressed, Invoke ScannerEnter.
         //Must be GetKey to account for any objects entering the field.
-        if (Input.GetKey(KeyCode.E) || isActive)
+        if (Input.GetKey(KeyCode.E) || isActive || canProgress)
             foreach (Target target in scannedTargets)
             {
                 //Only invoke ScannerEnter if target has not invoked ScannerEnter yet.
@@ -62,6 +63,9 @@ public class AudioChecker : MonoBehaviour
     public void SetActive(bool value)
     {
         isActive = value;
+    }
+    public void Progressable(bool value) {
+        canProgress = value;
     }
 
     private void OnTriggerExit(Collider other)

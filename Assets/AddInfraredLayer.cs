@@ -11,14 +11,14 @@ public class AddInfraredLayer : MonoBehaviour
         // To do: change light? and reset in ResetLayer()
         
         if (transform.root.GetComponent<HenkReformed>().isInfraredOn == true) {
-            gameObject.layer = 6;
+            //gameObject.layer = 6;
 
         }
     }
 
     public void ResetLayer() {
         // Reset layer back to default
-        gameObject.layer = 0;
+        //gameObject.layer = 0;
     }
 
 }
